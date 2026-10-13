@@ -39,11 +39,7 @@
     {
       "id": "pizza",
       "order": 7,
-      "name": { "en": "Swedish Pizza", "ar": "البيتزا السويدية" },
-      "note": {
-        "en": "All pizzas served with Loki's special pizza salad · Mix & Match: 2 Flavors (M | L | XL) · 4 Flavors (L | XL)",
-        "ar": "تقدم جميع أنواع البيتزا مع سلطة البيتزا الخاصة من لوكيز · متاح دمج نكهتين (وسط | كبير | كبير جداً) أو ٤ نكهات (كبير | كبير جداً)"
-      }
+      "name": { "en": "Swedish Pizza", "ar": "البيتزا السويدية" }
     },
     {
       "id": "drinks",
@@ -114,7 +110,6 @@
       "name": { "en": "Chili Cheese Bites", "ar": "تشيلي تشيز بايتس" },
       "price": "$6.0",
       "isSpicy": true,
-      "badge": { "en": "Spicy", "ar": "حار" },
       "description": { "en": "Spicy chili & melted cheese in crispy shells.", "ar": "قطع مقرمشة محشوة بالفلفل الحار والجبنة الذائبة." },
       "image": "/data/layout_images/logo_pic.avif",
       "isAvailable": true
@@ -126,7 +121,6 @@
       "name": { "en": "Buffalo Wings (6pcs)", "ar": "جوانح بافلو (٦ قطع)" },
       "price": "$6.0",
       "isSpicy": true,
-      "badge": { "en": "Spicy", "ar": "حار" },
       "description": { "en": "Tossed in classic spicy buffalo hot sauce.", "ar": "جوانح دجاج مغطاة بصلصة البافلو الحارة الكلاسيكية." },
       "image": "/data/layout_images/logo_pic.avif",
       "isAvailable": true
@@ -148,7 +142,6 @@
       "name": { "en": "Dynamite Shrimps", "ar": "ديناميت شرمب" },
       "price": "$8.0",
       "isSpicy": true,
-      "badge": { "en": "Spicy", "ar": "حار" },
       "description": { "en": "Crispy golden shrimp coated in our spicy dynamite sauce.", "ar": "جمبري مقلي مقرمش مغطى بصلصة الديناميت الخاصة والحارة." },
       "image": "/data/layout_images/logo_pic.avif",
       "isAvailable": true
@@ -259,7 +252,6 @@
       "price": "$6.5",
       "comboOption": "+$3.5",
       "isSpicy": true,
-      "badge": { "en": "Spicy", "ar": "حار" },
       "description": { "en": "Crispy spicy Zinger fillet, special dressing, lettuce, tomatoes, pickles, and cheddar cheese.", "ar": "فيليه دجاج زنجر حار ومقرمش، صلصة، خس، طماطم، مخلل، وشيدر ذائبة." },
       "image": "/data/layout_images/logo_pic.avif",
       "isAvailable": true
@@ -477,7 +469,6 @@
       "name": { "en": "Marinara", "ar": "مارينارا بحرية" },
       "price": "$12.0",
       "isSpicy": true,
-      "badge": { "en": "Spicy", "ar": "حار" },
       "sizes": [
         { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
         { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
@@ -533,7 +524,6 @@
       "name": { "en": "Dynamite Shrimp", "ar": "ديناميت شرمب بيتزا" },
       "price": "$12.0",
       "isSpicy": true,
-      "badge": { "en": "Spicy", "ar": "حار" },
       "sizes": [
         { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
         { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
@@ -590,7 +580,6 @@
       "name": { "en": "Dynamite Chicken", "ar": "ديناميت تشيكن" },
       "price": "$11.0",
       "isSpicy": true,
-      "badge": { "en": "Spicy", "ar": "حار" },
       "sizes": [
         { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$11.0" },
         { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$14.0" },
@@ -701,7 +690,6 @@
       "name": { "en": "Mexicana", "ar": "مكسيكانا" },
       "price": "$12.0",
       "isSpicy": true,
-      "badge": { "en": "Spicy", "ar": "حار" },
       "sizes": [
         { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
         { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
@@ -775,7 +763,6 @@
       "name": { "en": "Honey Pepperoni", "ar": "هوني بيبيروني" },
       "price": "$9.0",
       "isSpicy": true,
-      "badge": { "en": "Spicy", "ar": "حار" },
       "sizes": [
         { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$9.0" },
         { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$12.0" },
@@ -927,7 +914,6 @@
       "price": "$9.0",
       "defaultSize": "m",
       "isSpicy": true,
-      "badge": { "en": "Spicy", "ar": "حار" },
       "sizes": [
         { "id": "xs", "name": { "en": "X-Small", "ar": "صغير جداً" }, "dimension": "20 cm", "price": "$9.0" },
         { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },

@@ -167,19 +167,6 @@ export default function ItemModal({ product, lang, onClose }: ItemModalProps) {
                 </div>
               )}
 
-              {/* Pizza Specialty Notes */}
-              {product.categoryId === "pizza" && (
-                <div className="modal-pizza-notes">
-                  <div className="pizza-note-row">
-                    <span className="diamond-bullet">✦</span>
-                    <span>{siteText[lang].pizzaSaladNote}</span>
-                  </div>
-                  <div className="pizza-note-row">
-                    <span className="diamond-bullet">✦</span>
-                    <span>{siteText[lang].mixAndMatch}</span>
-                  </div>
-                </div>
-              )}
 
               {/* Combo Option Note for Rolls & Burgers */}
               {product.comboOption && (
