@@ -34,7 +34,7 @@ export default async function RootLayout({
   // This allows us to set the language (lang) and direction (dir - RTL/LTR) 
   // directly on the <html> tag so the browser knows how to render the text instantly.
   const cookieStore = await cookies();
-  const lang = cookieStore.get("restaurant-language")?.value === "ar" ? "ar" : "en";
+  const lang = cookieStore.get("restaurant-language")?.value === "en" ? "en" : "ar";
   const dir = lang === "ar" ? "rtl" : "ltr";
 
   return (

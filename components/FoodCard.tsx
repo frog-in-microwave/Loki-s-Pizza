@@ -98,6 +98,9 @@ export default function FoodCard({ product, lang, offerText, fallbackImage, onSe
           >
             {product.sizes!.map((size) => {
               const isSelected = size.id === (activeSize?.id || product.sizes![0].id);
+              const sizeLabel = size.id.length <= 2 
+                ? size.id.toUpperCase() 
+                : getText(size.name);
               return (
                 <button
                   key={size.id}
@@ -110,7 +113,7 @@ export default function FoodCard({ product, lang, offerText, fallbackImage, onSe
                   aria-pressed={isSelected}
                   title={`${getText(size.name)} ${size.dimension ? `(${size.dimension})` : ""}`}
                 >
-                  <span className="size-btn-code">{size.id.toUpperCase()}</span>
+                  <span className="size-btn-code">{sizeLabel}</span>
                 </button>
               );
             })}

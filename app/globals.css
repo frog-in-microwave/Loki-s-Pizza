@@ -673,6 +673,7 @@ html[dir="rtl"] .card-title {
   min-width: 31px;
   height: 25px;
   flex-shrink: 0;
+  white-space: nowrap;
   touch-action: manipulation;
   user-select: none;
   position: relative;

@@ -138,7 +138,7 @@ export default function ItemModal({ product, lang, onClose }: ItemModalProps) {
                 <div className="modal-sizes-section">
                   <div className="modal-sizes-header">
                     <span className="modal-sizes-title">
-                      <i className="fas fa-pizza-slice" style={{ marginInlineEnd: "6px" }}></i>
+                      <i className={product.categoryId === "pizza" ? "fas fa-pizza-slice" : "fas fa-bread-slice"} style={{ marginInlineEnd: "6px" }}></i>
                       {siteText[lang].selectSize}
                     </span>
                   </div>
@@ -154,7 +154,9 @@ export default function ItemModal({ product, lang, onClose }: ItemModalProps) {
                           onClick={() => setSelectedSizeId(s.id)}
                           aria-pressed={isSelected}
                         >
-                          <span className="size-code-badge">{s.id.toUpperCase()}</span>
+                          {s.id.length <= 2 && (
+                            <span className="size-code-badge">{s.id.toUpperCase()}</span>
+                          )}
                           <span className="size-info-block">
                             <span className="size-name-text">{getText(s.name)}</span>
                             {s.dimension && <span className="size-dim-text">{s.dimension}</span>}

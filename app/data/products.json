@@ -1,1020 +1,2891 @@
 {
   "categories": [
     {
-      "id": "appetizers",
+      "id": "breakfast",
       "order": 1,
-      "name": { "en": "Appetizers", "ar": "المقبلات" },
-      "note": {
-        "en": "Dips: Cheddar · BBQ · Ketchup · Dynamite · Sweet & Sour · Garlic · Kebab · Béarnaise · Buffalo",
-        "ar": "الصلصات: شيدر · باربيكيو · كاتشب · ديناميت · سويت آند ساور · ثوم · كباب · بيرنيز · بوفالو"
+      "name": {
+        "en": "Breakfast",
+        "ar": "ترويقة"
+      },
+      "subtitle": {
+        "en": "Served Every Morning · Prices in LBP",
+        "ar": "يومياً في الصباح · الأسعار بالليرة اللبنانية"
       }
     },
     {
-      "id": "rolls",
+      "id": "appetizers",
       "order": 2,
-      "name": { "en": "Rolls", "ar": "الرولز" },
-      "subtitle": { "en": "Combo Option +$3.5", "ar": "خيار كومبو +3.5$" }
+      "name": {
+        "en": "Appetizers",
+        "ar": "المقبلات"
+      },
+      "note": {
+        "en": "Dips: Cheddar · BBQ · Ketchup · Dynamite · Garlic · Kebab · Béarnaise · Buffalo",
+        "ar": "الصلصات: شيدر · باربيكيو · كاتشب · ديناميت · ثوم · كباب · بيرنيز · بوفالو"
+      }
     },
     {
       "id": "salads",
       "order": 3,
-      "name": { "en": "Salads", "ar": "السلطات" }
+      "name": {
+        "en": "Salads",
+        "ar": "السلطات"
+      }
+    },
+    {
+      "id": "rolls",
+      "order": 4,
+      "name": {
+        "en": "Rolls",
+        "ar": "الرولز"
+      },
+      "subtitle": {
+        "en": "Combo Option +$3.5",
+        "ar": "خيار كومبو +3.5$"
+      }
+    },
+    {
+      "id": "sandwiches",
+      "order": 5,
+      "name": {
+        "en": "Sandwiches",
+        "ar": "الساندويشات"
+      },
+      "subtitle": {
+        "en": "In Fresh Pizza Dough",
+        "ar": "بعجينة البيتزا الطازجة"
+      }
     },
     {
       "id": "burgers",
-      "order": 4,
-      "name": { "en": "Burgers", "ar": "البرغر" },
-      "subtitle": { "en": "Combo Option +$3.5", "ar": "خيار كومبو +3.5$" }
+      "order": 6,
+      "name": {
+        "en": "Burgers",
+        "ar": "البرغر"
+      },
+      "subtitle": {
+        "en": "Combo Option +$3.5",
+        "ar": "خيار كومبو +3.5$"
+      }
     },
     {
       "id": "pasta",
-      "order": 5,
-      "name": { "en": "Pasta", "ar": "الباستا" }
+      "order": 7,
+      "name": {
+        "en": "Pasta",
+        "ar": "الباستا"
+      }
     },
     {
       "id": "plates",
-      "order": 6,
-      "name": { "en": "Plates", "ar": "الأطباق والوجبات" }
+      "order": 8,
+      "name": {
+        "en": "Plates",
+        "ar": "الأطباق والوجبات"
+      }
     },
     {
       "id": "pizza",
-      "order": 7,
-      "name": { "en": "Swedish Pizza", "ar": "البيتزا السويدية" }
+      "order": 9,
+      "name": {
+        "en": "Swedish Pizza",
+        "ar": "البيتزا السويدية"
+      },
+      "note": {
+        "en": "Served with Loki's special pizza salad",
+        "ar": "تقدم جميع أنواع البيتزا مع سلطة البيتزا الخاصة من لوكيز"
+      },
+      "subtitle": {
+        "en": "Mix & Match: 2 Flavors (M | L | XL) · 4 Flavors (L | XL)",
+        "ar": "إمكانية دمج النكهات: نكهتان (M | L | XL) · ٤ نكهات (L | XL)"
+      }
     },
     {
       "id": "drinks",
-      "order": 8,
-      "name": { "en": "Drinks", "ar": "المشروبات" }
+      "order": 10,
+      "name": {
+        "en": "Drinks",
+        "ar": "المشروبات"
+      },
+      "subtitle": {
+        "en": "Want a drink?",
+        "ar": "بدك شي منعش تشربه؟"
+      }
     },
     {
       "id": "shisha",
-      "order": 9,
-      "name": { "en": "Shisha", "ar": "الشيشة" }
+      "order": 11,
+      "name": {
+        "en": "Shisha",
+        "ar": "الشيشة"
+      }
     }
   ],
   "products": [
     {
+      "id": "bf-zaatar",
+      "categoryId": "breakfast",
+      "order": 1,
+      "name": {
+        "en": "Zaatar",
+        "ar": "زعتر"
+      },
+      "price": "100,000 LBP",
+      "defaultSize": "normal",
+      "sizes": [
+        {
+          "id": "normal",
+          "name": {
+            "en": "Normal",
+            "ar": "عادي"
+          },
+          "price": "100,000 LBP"
+        },
+        {
+          "id": "mashruha",
+          "name": {
+            "en": "Mashruha",
+            "ar": "مشروحة"
+          },
+          "price": "130,000 LBP"
+        }
+      ],
+      "description": {
+        "en": "Traditional thyme blend with sesame and olive oil on freshly baked dough. Available in normal or mashruha size.",
+        "ar": "خلطة الزعتر التقليدية بالسمسم وزيت الزيتون على عجينة طازجة. متوفرة بالحجم العادي أو مشروحة."
+      },
+      "image": "/data/images/breakfast-zaatar.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-cheese",
+      "categoryId": "breakfast",
+      "order": 2,
+      "name": {
+        "en": "Cheese",
+        "ar": "جبنة"
+      },
+      "price": "250,000 LBP",
+      "defaultSize": "normal",
+      "sizes": [
+        {
+          "id": "normal",
+          "name": {
+            "en": "Normal",
+            "ar": "عادي"
+          },
+          "price": "250,000 LBP"
+        },
+        {
+          "id": "mashruha",
+          "name": {
+            "en": "Mashruha",
+            "ar": "مشروحة"
+          },
+          "price": "300,000 LBP"
+        }
+      ],
+      "description": {
+        "en": "Melted premium cheese on freshly baked dough. Available in normal or mashruha size.",
+        "ar": "جبنة ذائبة فاخرة على عجينة طازجة ومخبوزة بإتقان. متوفرة بالحجم العادي أو مشروحة."
+      },
+      "image": "/data/images/breakfast-cheese.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-cheese-zaatar-half",
+      "categoryId": "breakfast",
+      "order": 3,
+      "name": {
+        "en": "Cheese & Zaatar Half & Half",
+        "ar": "جبنة وزعتر نص بنص"
+      },
+      "price": "200,000 LBP",
+      "defaultSize": "normal",
+      "sizes": [
+        {
+          "id": "normal",
+          "name": {
+            "en": "Normal",
+            "ar": "عادي"
+          },
+          "price": "200,000 LBP"
+        },
+        {
+          "id": "mashruha",
+          "name": {
+            "en": "Mashruha",
+            "ar": "مشروحة"
+          },
+          "price": "250,000 LBP"
+        }
+      ],
+      "description": {
+        "en": "Half thyme and half melted cheese on freshly baked dough. Available in normal or mashruha size.",
+        "ar": "نصف زعتر ونصف جبنة ذائبة على عجينة طازجة. متوفرة بالحجم العادي أو مشروحة."
+      },
+      "image": "/data/images/breakfast-cheese-zaatar.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-lokis-special-cheese",
+      "categoryId": "breakfast",
+      "order": 4,
+      "name": {
+        "en": "Loki's Special Cheese",
+        "ar": "جبنة لوكي سبيشل"
+      },
+      "price": "500,000 LBP",
+      "defaultSize": "normal",
+      "sizes": [
+        {
+          "id": "normal",
+          "name": {
+            "en": "Normal",
+            "ar": "عادي"
+          },
+          "price": "500,000 LBP"
+        },
+        {
+          "id": "mashruha",
+          "name": {
+            "en": "Mashruha",
+            "ar": "مشروحة"
+          },
+          "price": "600,000 LBP"
+        }
+      ],
+      "description": {
+        "en": "Loki's signature special cheese blend on freshly baked dough. Available in normal or mashruha size.",
+        "ar": "خلطة أجبان لوكي الخاصة المميزة على عجينة طازجة. متوفرة بالحجم العادي أو مشروحة."
+      },
+      "image": "/data/images/breakfast-lokis-special-cheese.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-cheese-sujuk",
+      "categoryId": "breakfast",
+      "order": 5,
+      "name": {
+        "en": "Cheese & Sujuk",
+        "ar": "جبنة وسجق"
+      },
+      "price": "350,000 LBP",
+      "defaultSize": "normal",
+      "sizes": [
+        {
+          "id": "normal",
+          "name": {
+            "en": "Normal",
+            "ar": "عادي"
+          },
+          "price": "350,000 LBP"
+        },
+        {
+          "id": "mashruha",
+          "name": {
+            "en": "Mashruha",
+            "ar": "مشروحة"
+          },
+          "price": "400,000 LBP"
+        }
+      ],
+      "description": {
+        "en": "Spiced Lebanese sujuk paired with melted cheese on baked dough. Available in normal or mashruha size.",
+        "ar": "سجق لبناني متبل مع جبنة ذائبة على عجينة طازجة. متوفرة بالحجم العادي أو مشروحة."
+      },
+      "image": "/data/images/breakfast-cheese-sujuk.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-cheese-mortadella",
+      "categoryId": "breakfast",
+      "order": 6,
+      "name": {
+        "en": "Cheese & Mortadella",
+        "ar": "جبنة ومرتديلا"
+      },
+      "price": "350,000 LBP",
+      "defaultSize": "normal",
+      "sizes": [
+        {
+          "id": "normal",
+          "name": {
+            "en": "Normal",
+            "ar": "عادي"
+          },
+          "price": "350,000 LBP"
+        },
+        {
+          "id": "mashruha",
+          "name": {
+            "en": "Mashruha",
+            "ar": "مشروحة"
+          },
+          "price": "400,000 LBP"
+        }
+      ],
+      "description": {
+        "en": "Savory mortadella slices with melted cheese on baked dough. Available in normal or mashruha size.",
+        "ar": "شرائح مرتديلا شهية مع جبنة ذائبة على عجينة طازجة. متوفرة بالحجم العادي أو مشروحة."
+      },
+      "image": "/data/images/breakfast-cheese-mortadella.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-pepperoni",
+      "categoryId": "breakfast",
+      "order": 7,
+      "name": {
+        "en": "Pepperoni",
+        "ar": "بيبروني"
+      },
+      "price": "400,000 LBP",
+      "defaultSize": "normal",
+      "sizes": [
+        {
+          "id": "normal",
+          "name": {
+            "en": "Normal",
+            "ar": "عادي"
+          },
+          "price": "400,000 LBP"
+        },
+        {
+          "id": "mashruha",
+          "name": {
+            "en": "Mashruha",
+            "ar": "مشروحة"
+          },
+          "price": "450,000 LBP"
+        }
+      ],
+      "description": {
+        "en": "Zesty pepperoni slices with melted cheese on baked dough. Available in normal or mashruha size.",
+        "ar": "شرائح بيبروني لذيذة مع جبنة ذائبة على عجينة طازجة. متوفرة بالحجم العادي أو مشروحة."
+      },
+      "image": "/data/images/breakfast-pepperoni.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-tomato-onion",
+      "categoryId": "breakfast",
+      "order": 8,
+      "name": {
+        "en": "Tomato & Onion",
+        "ar": "بندورة وبصل"
+      },
+      "price": "170,000 LBP",
+      "defaultSize": "normal",
+      "sizes": [
+        {
+          "id": "normal",
+          "name": {
+            "en": "Normal",
+            "ar": "عادي"
+          },
+          "price": "170,000 LBP"
+        },
+        {
+          "id": "mashruha",
+          "name": {
+            "en": "Mashruha",
+            "ar": "مشروحة"
+          },
+          "price": "200,000 LBP"
+        }
+      ],
+      "description": {
+        "en": "Freshly chopped tomatoes and onions with seasonings on baked dough. Available in normal or mashruha size.",
+        "ar": "بندورة وبصل مفرومان طازجان مع التوابل على عجينة مخبوزة. متوفرة بالحجم العادي أو مشروحة."
+      },
+      "image": "/data/images/breakfast-tomato-onion.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-tomato-onion-cheese",
+      "categoryId": "breakfast",
+      "order": 9,
+      "name": {
+        "en": "Tomato, Onion & Cheese",
+        "ar": "بندورة وبصل وجبنة"
+      },
+      "price": "250,000 LBP",
+      "defaultSize": "normal",
+      "sizes": [
+        {
+          "id": "normal",
+          "name": {
+            "en": "Normal",
+            "ar": "عادي"
+          },
+          "price": "250,000 LBP"
+        },
+        {
+          "id": "mashruha",
+          "name": {
+            "en": "Mashruha",
+            "ar": "مشروحة"
+          },
+          "price": "300,000 LBP"
+        }
+      ],
+      "description": {
+        "en": "Fresh tomatoes, onions, and melted cheese on baked dough. Available in normal or mashruha size.",
+        "ar": "بندورة، بصل، وجبنة ذائبة على عجينة طازجة ومخبوزة بإتقان. متوفرة بالحجم العادي أو مشروحة."
+      },
+      "image": "/data/images/breakfast-tomato-onion-cheese.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-kashkawan-mortadella",
+      "categoryId": "breakfast",
+      "order": 10,
+      "name": {
+        "en": "Kashkawan & Mortadella",
+        "ar": "قشقوان ومرتديلا"
+      },
+      "price": "350,000 LBP",
+      "description": {
+        "en": "Kashkawan, mortadella, lettuce, tomatoes, pickles, and sauce.",
+        "ar": "قشقوان، مرتديلا، خس، بندورة، كبيس، وصلصة."
+      },
+      "image": "/data/images/breakfast-kashkawan-mortadella.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-lokis-baguette",
+      "categoryId": "breakfast",
+      "order": 11,
+      "name": {
+        "en": "Loki's Baguette",
+        "ar": "لوكي باغيت"
+      },
+      "price": "250,000 LBP",
+      "description": {
+        "en": "Mozzarella, cherry tomatoes, fresh basil, and olive oil.",
+        "ar": "موزاريلا، بندورة كرزية، حبق طازج، وزيت زيتون."
+      },
+      "image": "/data/images/breakfast-lokis-baguette.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-cheese-baguette",
+      "categoryId": "breakfast",
+      "order": 12,
+      "name": {
+        "en": "Cheese Baguette",
+        "ar": "باغيت جبنة"
+      },
+      "price": "300,000 LBP",
+      "description": {
+        "en": "Loki's Swedish cheese.",
+        "ar": "جبنة لوكي السويدية الخاصة."
+      },
+      "image": "/data/images/breakfast-cheese-baguette.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-sujuk-baguette",
+      "categoryId": "breakfast",
+      "order": 13,
+      "name": {
+        "en": "Sujuk Baguette",
+        "ar": "باغيت سجق"
+      },
+      "price": "350,000 LBP",
+      "description": {
+        "en": "Sujuk, tomatoes, pickles, mayo, and mustard.",
+        "ar": "سجق، بندورة، كبيس، مايونيز، وخردل."
+      },
+      "image": "/data/images/breakfast-sujuk-baguette.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-veggie-plate",
+      "categoryId": "breakfast",
+      "order": 14,
+      "name": {
+        "en": "Veggie Plate",
+        "ar": "صحن خضرا"
+      },
+      "price": "70,000 LBP",
+      "description": {
+        "en": "Fresh assortment of seasonal vegetables, mint, and olives.",
+        "ar": "تشكيلة من الخضار الموسمية الطازجة، نعناع، وزيتون."
+      },
+      "image": "/data/images/breakfast-veggie-plate.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "bf-extra-veggies",
+      "categoryId": "breakfast",
+      "order": 15,
+      "name": {
+        "en": "Extra Veggies",
+        "ar": "إضافة خضرا"
+      },
+      "price": "30,000 LBP",
+      "description": {
+        "en": "Side portion of fresh vegetables.",
+        "ar": "حصة إضافية من الخضار الطازجة."
+      },
+      "image": "/data/images/breakfast-extra-veggies.avif",
+      "isAvailable": true
+    },
+    {
       "id": "app-curly-fries",
       "categoryId": "appetizers",
       "order": 1,
-      "name": { "en": "Curly Fries", "ar": "بطاطا كيرلي" },
+      "name": {
+        "en": "Curly Fries",
+        "ar": "بطاطا كيرلي"
+      },
       "price": "$6.0",
-      "description": { "en": "Seasoned spiral fries, golden and crispy.", "ar": "بطاطا حلزونية متبلة، ذهبية ومقرمشة." },
-      "image": "/data/layout_images/logo_pic.avif",
-      "isAvailable": true
-    },
-    {
-      "id": "app-regular-fries",
-      "categoryId": "appetizers",
-      "order": 2,
-      "name": { "en": "Regular Fries", "ar": "بطاطا مقلية" },
-      "price": "$3.0",
-      "description": { "en": "Classic golden fries, salted perfectly.", "ar": "بطاطا مقلية ذهبية كلاسيكية مملحة بإتقان." },
-      "image": "/data/layout_images/logo_pic.avif",
-      "isAvailable": true
-    },
-    {
-      "id": "app-wedges",
-      "categoryId": "appetizers",
-      "order": 3,
-      "name": { "en": "Wedges", "ar": "بطاطا ودجز" },
-      "price": "$4.0",
-      "description": { "en": "Thick-cut herbed potato wedges.", "ar": "أصابع بطاطا ودجز سميكة ومتبلة بالأعشاب." },
-      "image": "/data/layout_images/logo_pic.avif",
-      "isAvailable": true
-    },
-    {
-      "id": "app-onion-rings",
-      "categoryId": "appetizers",
-      "order": 4,
-      "name": { "en": "Onion Rings", "ar": "حلقات البصل" },
-      "price": "$5.0",
-      "description": { "en": "Golden-fried crispy onion rings.", "ar": "حلقات بصل مقلية ومقرمشة بلون ذهبي شهي." },
-      "image": "/data/layout_images/logo_pic.avif",
-      "isAvailable": true
-    },
-    {
-      "id": "app-mozzarella-sticks",
-      "categoryId": "appetizers",
-      "order": 5,
-      "name": { "en": "Mozzarella Sticks", "ar": "أصابع موزاريلا" },
-      "price": "$6.0",
-      "description": { "en": "Crispy crumbed mozzarella, served hot and stretchy.", "ar": "أصابع جبنة موزاريلا مقرمشة تقدم ساخنة وشهية." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Seasoned spiral fries, golden and crispy.",
+        "ar": "بطاطا حلزونية متبلة، ذهبية ومقرمشة."
+      },
+      "image": "/data/images/appetizer-curly-fries.avif",
       "isAvailable": true
     },
     {
       "id": "app-chili-cheese-bites",
       "categoryId": "appetizers",
-      "order": 6,
-      "name": { "en": "Chili Cheese Bites", "ar": "تشيلي تشيز بايتس" },
+      "order": 2,
+      "name": {
+        "en": "Chili Cheese Bites",
+        "ar": "تشيلي تشيز بايتس"
+      },
       "price": "$6.0",
       "isSpicy": true,
-      "description": { "en": "Spicy chili & melted cheese in crispy shells.", "ar": "قطع مقرمشة محشوة بالفلفل الحار والجبنة الذائبة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Spicy chili and melted cheese in crispy shells.",
+        "ar": "تشيلي حار وجبنة ذائبة في قشور مقرمشة."
+      },
+      "image": "/data/images/appetizer-chili-cheese-bites.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "app-regular-fries",
+      "categoryId": "appetizers",
+      "order": 3,
+      "name": {
+        "en": "Regular Fries",
+        "ar": "بطاطا مقلية"
+      },
+      "price": "$3.0",
+      "description": {
+        "en": "Classic golden fries, perfectly salted.",
+        "ar": "بطاطا مقلية ذهبية كلاسيكية مملحة بإتقان."
+      },
+      "image": "/data/images/appetizer-regular-fries.avif",
       "isAvailable": true
     },
     {
       "id": "app-buffalo-wings",
       "categoryId": "appetizers",
-      "order": 7,
-      "name": { "en": "Buffalo Wings (6pcs)", "ar": "جوانح بافلو (٦ قطع)" },
+      "order": 4,
+      "name": {
+        "en": "Buffalo Wings (6 pcs)",
+        "ar": "جوانح بافلو (٦ قطع)"
+      },
       "price": "$6.0",
-      "isSpicy": true,
-      "description": { "en": "Tossed in classic spicy buffalo hot sauce.", "ar": "جوانح دجاج مغطاة بصلصة البافلو الحارة الكلاسيكية." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Tossed in classic buffalo hot sauce.",
+        "ar": "مغطاة بصلصة البافلو الحارة الكلاسيكية."
+      },
+      "image": "/data/images/appetizer-buffalo-wings.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "app-wedges",
+      "categoryId": "appetizers",
+      "order": 5,
+      "name": {
+        "en": "Wedges",
+        "ar": "بطاطا ودجز"
+      },
+      "price": "$4.0",
+      "description": {
+        "en": "Thick-cut herbed potato wedges.",
+        "ar": "أصابع بطاطا ودجز سميكة ومتبلة بالأعشاب."
+      },
+      "image": "/data/images/appetizer-wedges.avif",
       "isAvailable": true
     },
     {
       "id": "app-bbq-wings",
       "categoryId": "appetizers",
-      "order": 8,
-      "name": { "en": "BBQ Wings (6pcs)", "ar": "جوانح باربيكيو (٦ قطع)" },
+      "order": 6,
+      "name": {
+        "en": "BBQ Wings (6 pcs)",
+        "ar": "جوانح باربيكيو (٦ قطع)"
+      },
       "price": "$6.0",
-      "description": { "en": "Slow-smoked chicken wings, finished with rich BBQ glaze.", "ar": "جوانح دجاج مدخنة مع صوص الباربيكيو الغني." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Slow-smoked, finished with a BBQ glaze.",
+        "ar": "مدخنة على نار هادئة مع صوص الباربيكيو الغني."
+      },
+      "image": "/data/images/appetizer-bbq-wings.avif",
       "isAvailable": true
     },
     {
-      "id": "app-dynamite-shrimps",
+      "id": "app-onion-rings",
       "categoryId": "appetizers",
-      "order": 9,
-      "name": { "en": "Dynamite Shrimps", "ar": "ديناميت شرمب" },
+      "order": 7,
+      "name": {
+        "en": "Onion Rings",
+        "ar": "حلقات البصل"
+      },
+      "price": "$5.0",
+      "description": {
+        "en": "Golden-fried onion rings.",
+        "ar": "حلقات بصل مقلية ومقرمشة بلون ذهبي شهي."
+      },
+      "image": "/data/images/appetizer-onion-rings.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "app-dynamite-shrimp",
+      "categoryId": "appetizers",
+      "order": 8,
+      "name": {
+        "en": "Dynamite Shrimp",
+        "ar": "ديناميت شرمب"
+      },
       "price": "$8.0",
       "isSpicy": true,
-      "description": { "en": "Crispy golden shrimp coated in our spicy dynamite sauce.", "ar": "جمبري مقلي مقرمش مغطى بصلصة الديناميت الخاصة والحارة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Crispy shrimp in spicy dynamite sauce.",
+        "ar": "جمبري مقرمش مغطى بصلصة الديناميت الحارة."
+      },
+      "image": "/data/images/appetizer-dynamite-shrimp.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "app-mozzarella-sticks",
+      "categoryId": "appetizers",
+      "order": 9,
+      "name": {
+        "en": "Mozzarella Sticks",
+        "ar": "أصابع موزاريلا"
+      },
+      "price": "$6.0",
+      "description": {
+        "en": "Crispy breaded mozzarella, served hot.",
+        "ar": "أصابع جبنة موزاريلا مقرمشة تقدم ساخنة."
+      },
+      "image": "/data/images/appetizer-mozzarella-sticks.avif",
       "isAvailable": true
     },
     {
       "id": "app-sharing-platter",
       "categoryId": "appetizers",
       "order": 10,
-      "name": { "en": "Sharing Platter", "ar": "طبق المشاركة الفاخر" },
+      "name": {
+        "en": "Sharing Platter",
+        "ar": "طبق المشاركة الفاخر"
+      },
       "price": "$12.0",
-      "description": { "en": "Generous mix of wings, mozzarella sticks, chili cheese bites, onion rings & fries.", "ar": "تشكيلة غنية تضم أجنحة دجاج، أصابع موزاريلا، تشيلي بايتس، حلقات بصل وبطاطا مقلية." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Wings, mozzarella sticks, chili bites, onion rings, and fries.",
+        "ar": "أجنحة، أصابع موزاريلا، تشيلي بايتس، حلقات بصل، وبطاطا مقلية."
+      },
+      "image": "/data/images/appetizer-sharing-platter.avif",
       "isAvailable": true
     },
-
-    {
-      "id": "roll-chicken",
-      "categoryId": "rolls",
-      "order": 1,
-      "name": { "en": "Loki's Chicken Roll", "ar": "لوكيز تشيكن رول" },
-      "price": "$6.0",
-      "comboOption": "+$3.5",
-      "description": { "en": "Fresh pizza dough filled with chicken, lettuce, tomatoes, cucumber, onions, and Swedish kebab sauce.", "ar": "عجينة بيتزا طازجة ملفوفة بحشوة الدجاج، خس، طماطم، خيار، بصل، وصلصة الكباب السويدية." },
-      "image": "/data/layout_images/logo_pic.avif",
-      "isAvailable": true
-    },
-    {
-      "id": "roll-kebab",
-      "categoryId": "rolls",
-      "order": 2,
-      "name": { "en": "Loki's Kebab Roll", "ar": "لوكيز كباب رول" },
-      "price": "$8.0",
-      "comboOption": "+$3.5",
-      "description": { "en": "Fresh pizza dough filled with kebab, lettuce, tomatoes, cucumber, onions, and Swedish kebab sauce.", "ar": "عجينة بيتزا طازجة ملفوفة بحشوة الكباب المميز، خس، طماطم، خيار، بصل، وصلصة الكباب السويدية." },
-      "image": "/data/layout_images/logo_pic.avif",
-      "isAvailable": true
-    },
-    {
-      "id": "roll-twister",
-      "categoryId": "rolls",
-      "order": 3,
-      "name": { "en": "Twister", "ar": "تويستر" },
-      "price": "$5.0",
-      "comboOption": "+$3.5",
-      "description": { "en": "Crispy zinger chicken, fresh lettuce, tomatoes, cheddar cheese, and creamy mayonnaise.", "ar": "دجاج زنجر مقرمش، خس طازج، طماطم، جبنة شيدر، ومايونيز كريمي." },
-      "image": "/data/layout_images/logo_pic.avif",
-      "isAvailable": true
-    },
-
     {
       "id": "salad-chicken-caesar",
       "categoryId": "salads",
       "order": 1,
-      "name": { "en": "Chicken Caesar Salad", "ar": "سلطة سيزر بالدجاج" },
+      "name": {
+        "en": "Chicken Caesar Salad",
+        "ar": "سلطة سيزر بالدجاج"
+      },
       "price": "$7.0",
-      "description": { "en": "Crisp lettuce, parmesan cheese, crunchy croutons, grilled chicken, and Caesar dressing.", "ar": "خس طازج، جبنة بارميزان، خبز محمص كروتون، قطع دجاج مشوي، وتتبيلة السيزر الأصلية." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Crisp lettuce, Parmesan cheese, croutons, grilled chicken, and Caesar dressing.",
+        "ar": "خس مقرمش، جبنة بارميزان، كروتون، دجاج مشوي، وصلصة سيزر."
+      },
+      "image": "/data/images/salad-chicken-caesar.avif",
       "isAvailable": true
     },
     {
-      "id": "salad-kebab",
+      "id": "salad-lokis",
       "categoryId": "salads",
       "order": 2,
-      "name": { "en": "Loki's Kebab Salad", "ar": "سلطة لوكيز كباب" },
+      "name": {
+        "en": "Loki's Salad",
+        "ar": "سلطة لوكيز"
+      },
       "price": "$9.0",
-      "description": { "en": "Fresh lettuce, tomatoes, cucumber, onions, tender kebab meat, and Swedish kebab sauce.", "ar": "خس طازج، طماطم، خيار، بصل، شرائح كباب طرية، وصلصة الكباب السويدية الشهيرة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Fresh lettuce, tomatoes, cucumber, onions, kebab/chicken meat, and House sauce.",
+        "ar": "خس طازج، بندورة، خيار، بصل، لحم كباب/دجاج، وصلصة لوكيز الخاصة."
+      },
+      "image": "/data/images/salad-lokis.avif",
       "isAvailable": true
     },
     {
       "id": "salad-greek",
       "categoryId": "salads",
       "order": 3,
-      "name": { "en": "Greek Salad", "ar": "سلطة يونانية" },
+      "name": {
+        "en": "Greek Salad",
+        "ar": "سلطة يونانية"
+      },
       "price": "$5.0",
-      "description": { "en": "Fresh lettuce, tomatoes, cucumber, black olives, feta cheese, and bell pepper.", "ar": "خس، طماطم، خيار، زيتون أسود، جبنة فيتا ناعمة، وفليفلة ملونة مع زيت زيتون." },
+      "description": {
+        "en": "Fresh lettuce, tomatoes, cucumber, black olives, feta cheese, and bell peppers.",
+        "ar": "خس طازج، بندورة، خيار، زيتون أسود، جبنة فيتا، وفليفلة."
+      },
+      "image": "/data/images/salad-greek.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "roll-chicken",
+      "categoryId": "rolls",
+      "order": 1,
+      "name": {
+        "en": "Loki's Chicken Roll",
+        "ar": "لوكيز تشيكن رول"
+      },
+      "price": "$6.0",
+      "comboOption": "+$3.5",
+      "description": {
+        "en": "Fresh pizza dough filled with chicken, lettuce, tomatoes, cucumber, onions, and House sauce.",
+        "ar": "عجينة بيتزا طازجة محشوة بالدجاج، الخس، البندورة، الخيار، البصل، وصلصة لوكيز الخاصة."
+      },
+      "image": "/data/images/roll-lokis-chicken.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "roll-kebab",
+      "categoryId": "rolls",
+      "order": 2,
+      "name": {
+        "en": "Loki's Kebab Roll",
+        "ar": "لوكيز كباب رول"
+      },
+      "price": "$8.0",
+      "comboOption": "+$3.5",
+      "description": {
+        "en": "Fresh pizza dough filled with kebab, lettuce, tomatoes, cucumber, onions, and house sauce.",
+        "ar": "عجينة بيتزا طازجة محشوة بالكباب، الخس، البندورة، الخيار، البصل، وصلصة لوكيز الخاصة."
+      },
+      "image": "/data/images/roll-lokis-kebab.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "roll-twister",
+      "categoryId": "rolls",
+      "order": 3,
+      "name": {
+        "en": "Twister",
+        "ar": "تويستر"
+      },
+      "price": "$5.0",
+      "comboOption": "+$3.5",
+      "description": {
+        "en": "Crispy chicken, fresh lettuce, tomatoes, cheddar cheese, and house sauce.",
+        "ar": "دجاج كريسبي مقرمش، خس طازج، بندورة، جبنة شيدر، وصلصة لوكيز الخاصة."
+      },
+      "image": "/data/images/roll-twister.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "sw-crispy",
+      "categoryId": "sandwiches",
+      "order": 1,
+      "name": {
+        "en": "Crispy",
+        "ar": "كريسبي"
+      },
+      "price": "$5.5",
+      "description": {
+        "en": "Crispy chicken, lettuce, tomatoes, pickles, cheddar cheese, and house sauce in fresh pizza dough.",
+        "ar": "دجاج كريسبي، خس، بندورة، كبيس، جبنة شيدر، وصلصة لوكيز في عجينة بيتزا طازجة."
+      },
       "image": "/data/layout_images/logo_pic.avif",
       "isAvailable": true
     },
-
+    {
+      "id": "sw-philly-steak",
+      "categoryId": "sandwiches",
+      "order": 2,
+      "name": {
+        "en": "Philly Steak",
+        "ar": "فيلي ستيك"
+      },
+      "price": "$7.0",
+      "description": {
+        "en": "Steak fillet, caramelized onions, grilled mushrooms, lettuce, bell pepper, and gouda cheese in fresh pizza dough.",
+        "ar": "فيليه ستيك، بصل مكرمل، فطر مشوي، خس، فليفلة، وجبنة غودا في عجينة بيتزا طازجة."
+      },
+      "image": "/data/layout_images/logo_pic.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "sw-tawouk",
+      "categoryId": "sandwiches",
+      "order": 3,
+      "name": {
+        "en": "Tawouk",
+        "ar": "طاووق"
+      },
+      "price": "$5.0",
+      "description": {
+        "en": "Chicken tawouk, coleslaw, fries, pickles, and garlic sauce in fresh pizza dough.",
+        "ar": "شيش طاووق، سلطة كولسلو، بطاطا مقلية، كبيس، وصلصة ثوم في عجينة بيتزا طازجة."
+      },
+      "image": "/data/layout_images/logo_pic.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "sw-fajita",
+      "categoryId": "sandwiches",
+      "order": 4,
+      "name": {
+        "en": "Fajita",
+        "ar": "فاهيتا"
+      },
+      "price": "$6.0",
+      "description": {
+        "en": "Fajita-spiced chicken with avocado sauce in fresh pizza dough.",
+        "ar": "دجاج بتوابل الفاهيتا مع صلصة الأفوكادو في عجينة بيتزا طازجة."
+      },
+      "image": "/data/layout_images/logo_pic.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "sw-mexican",
+      "categoryId": "sandwiches",
+      "order": 5,
+      "name": {
+        "en": "Mexican",
+        "ar": "مكسيكان"
+      },
+      "price": "$6.5",
+      "description": {
+        "en": "Chicken in a Mexican spice blend, nachos, and taco sauce in fresh pizza dough.",
+        "ar": "دجاج بخلطة البهارات المكسيكية، ناتشوز، وصلصة تاكو في عجينة بيتزا طازجة."
+      },
+      "image": "/data/layout_images/logo_pic.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "sw-shrimp",
+      "categoryId": "sandwiches",
+      "order": 6,
+      "name": {
+        "en": "Shrimp",
+        "ar": "جمبري (شرمب)"
+      },
+      "price": "$6.0",
+      "isSpicy": true,
+      "description": {
+        "en": "Shrimp, lettuce, and spicy dynamite sauce in fresh pizza dough.",
+        "ar": "جمبري، خس، وصلصة ديناميت حارة في عجينة بيتزا طازجة."
+      },
+      "image": "/data/layout_images/logo_pic.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "sw-bbq-chicken",
+      "categoryId": "sandwiches",
+      "order": 7,
+      "name": {
+        "en": "BBQ Chicken",
+        "ar": "باربيكيو تشيكن"
+      },
+      "price": "$6.5",
+      "description": {
+        "en": "Marinated chicken, cheddar cheese, mushroom, caramelized onions, and BBQ sauce in fresh pizza dough.",
+        "ar": "دجاج متبل، جبنة شيدر، فطر، بصل مكرمل، وصلصة باربيكيو في عجينة بيتزا طازجة."
+      },
+      "image": "/data/layout_images/logo_pic.avif",
+      "isAvailable": true
+    },
     {
       "id": "burger-beef",
       "categoryId": "burgers",
       "order": 1,
-      "name": { "en": "Beef Burger", "ar": "برغر لحم" },
+      "name": {
+        "en": "Beef Burger",
+        "ar": "برغر لحم"
+      },
       "price": "$8.0",
       "comboOption": "+$3.5",
-      "description": { "en": "200g juicy beef patty, house dressing, crisp lettuce, tomatoes, pickles, onions, and melted cheddar cheese.", "ar": "قطعة لحم بقري صافي ٢٠٠غ، صلصة خاصة، خس، طماطم، مخلل، بصل وجبنة شيدر ذائبة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "200g beef patty, dressing, lettuce, tomatoes, pickles, onions, and cheddar cheese.",
+        "ar": "قطعة لحم بلدي ٢٠٠ غرام، صوص، خس، بندورة، كبيس، بصل، وجبنة شيدر."
+      },
+      "image": "/data/images/burger-beef.avif",
       "isAvailable": true
     },
     {
       "id": "burger-chicken",
       "categoryId": "burgers",
       "order": 2,
-      "name": { "en": "Chicken Burger", "ar": "برغر دجاج" },
+      "name": {
+        "en": "Chicken Burger",
+        "ar": "برغر دجاج"
+      },
       "price": "$6.0",
       "comboOption": "+$3.5",
-      "description": { "en": "Crisp chicken patty, house dressing, lettuce, tomatoes, pickles, onions, and cheddar cheese.", "ar": "قطعة دجاج شهية، صلصة، خس طازج، طماطم، مخلل، بصل وجبنة شيدر." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Chicken patty, dressing, lettuce, tomatoes, pickles, onions, and cheddar cheese.",
+        "ar": "قطعة دجاج، صوص، خس، بندورة، كبيس، بصل، وجبنة شيدر."
+      },
+      "image": "/data/images/burger-chicken.avif",
       "isAvailable": true
     },
     {
       "id": "burger-zinger",
       "categoryId": "burgers",
       "order": 3,
-      "name": { "en": "Zinger Burger", "ar": "برغر زنجر" },
+      "name": {
+        "en": "Zinger Burger",
+        "ar": "برغر زنجر"
+      },
       "price": "$6.5",
       "comboOption": "+$3.5",
-      "isSpicy": true,
-      "description": { "en": "Crispy spicy Zinger fillet, special dressing, lettuce, tomatoes, pickles, and cheddar cheese.", "ar": "فيليه دجاج زنجر حار ومقرمش، صلصة، خس، طماطم، مخلل، وشيدر ذائبة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Crispy zinger fillet, dressing, lettuce, tomatoes, pickles, and cheddar cheese.",
+        "ar": "فيليه زنجر مقرمش، صوص، خس، بندورة، كبيس، وجبنة شيدر."
+      },
+      "image": "/data/images/burger-zinger.avif",
       "isAvailable": true
     },
     {
       "id": "burger-lokis-chicken",
       "categoryId": "burgers",
       "order": 4,
-      "name": { "en": "Loki's Chicken Burger", "ar": "لوكيز تشيكن برغر" },
+      "name": {
+        "en": "Loki's Chicken Burger",
+        "ar": "لوكيز تشيكن برغر"
+      },
       "price": "$7.5",
       "comboOption": "+$3.5",
-      "description": { "en": "Freshly baked artisan pizza bun, chicken, dressing, lettuce, tomatoes, pickles, onions, and cheddar cheese.", "ar": "خبز بيتزا طازج مخبوز خصيصاً، دجاج، صلصة، خس، طماطم، مخلل، بصل وجبنة شيدر." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Freshly baked pizza bun, chicken, dressing, mushroom, pickles, onions, and cheddar cheese.",
+        "ar": "خبزة بيتزا طازجة مخبوزة، دجاج، صوص، فطر، كبيس، بصل، وجبنة شيدر."
+      },
+      "image": "/data/images/burger-lokis-chicken.avif",
       "isAvailable": true
     },
     {
       "id": "burger-lokis-beef",
       "categoryId": "burgers",
       "order": 5,
-      "name": { "en": "Loki's Beef Burger", "ar": "لوكيز بيف برغر" },
+      "name": {
+        "en": "Loki's Beef Burger",
+        "ar": "لوكيز بيف برغر"
+      },
       "price": "$9.0",
       "comboOption": "+$3.5",
-      "description": { "en": "Freshly baked artisan pizza bun, prime beef patty, dressing, lettuce, tomatoes, pickles, onions, and cheddar cheese.", "ar": "خبز بيتزا طازج، قطعة لحم بقري فاخر، صلصة، خس، طماطم، مخلل، بصل وجبنة شيدر." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Freshly baked pizza bun, beef, dressing, mushroom, pickles, onions, and cheddar cheese.",
+        "ar": "خبزة بيتزا طازجة مخبوزة، لحم، صوص، فطر، كبيس، بصل، وجبنة شيدر."
+      },
+      "image": "/data/images/burger-lokis-beef.avif",
       "isAvailable": true
     },
-
+    {
+      "id": "burger-lebanese",
+      "categoryId": "burgers",
+      "order": 6,
+      "name": {
+        "en": "Lebanese Burger",
+        "ar": "برغر لبناني"
+      },
+      "price": "$5.5",
+      "comboOption": "+$3.5",
+      "description": {
+        "en": "Beef patty, coleslaw, pickles, ketchup, and fries.",
+        "ar": "قطعة لحم، كولسلو، كبيس، كاتشب، وبطاطا مقلية."
+      },
+      "image": "/data/images/burger-lebanese.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "burger-bbq-bacon",
+      "categoryId": "burgers",
+      "order": 7,
+      "name": {
+        "en": "BBQ Bacon Burger",
+        "ar": "بي بي كيو بيكون برغر"
+      },
+      "price": "$8.0",
+      "comboOption": "+$3.5",
+      "description": {
+        "en": "Beef patty, bacon, caramelized onions, mushrooms, cheddar cheese, hamburger dressing, and BBQ sauce.",
+        "ar": "قطعة لحم، بيكون، بصل مكرمل، فطر، جبنة شيدر، صوص همبرغر، وصلصة باربيكيو."
+      },
+      "image": "/data/images/burger-bbq-bacon.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "burger-spicy-jalapeno",
+      "categoryId": "burgers",
+      "order": 8,
+      "name": {
+        "en": "Spicy Jalapeño Burger",
+        "ar": "سبايسي هالابينو برغر"
+      },
+      "price": "$8.0",
+      "isSpicy": true,
+      "comboOption": "+$3.5",
+      "description": {
+        "en": "Beef patty, cheddar cheese, jalapeños, caramelized onions, and spicy sauce.",
+        "ar": "قطعة لحم، جبنة شيدر، هالابينو حار، بصل مكرمل، وصلصة حارة."
+      },
+      "image": "/data/images/burger-spicy-jalapeno.avif",
+      "isAvailable": true
+    },
     {
       "id": "pasta-fettuccine-chicken",
       "categoryId": "pasta",
       "order": 1,
-      "name": { "en": "Fettuccine Alfredo Chicken", "ar": "فوتوتشيني ألفريدو دجاج" },
+      "name": {
+        "en": "Fettuccine Alfredo Chicken",
+        "ar": "فوتوتشيني ألفريدو دجاج"
+      },
       "price": "$9.0",
-      "description": { "en": "Creamy rich Alfredo sauce, sautéed mushrooms, and tender grilled chicken.", "ar": "باستا فوتوتشيني بصلصة ألفريدو كريمية غنية، فطر طازج، وقطع دجاج مشوي." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Creamy Alfredo sauce, mushrooms, and chicken.",
+        "ar": "صلصة ألفريدو كريمية غنية مع الفطر والدجاج."
+      },
+      "image": "/data/images/pasta-fettuccine-chicken.avif",
       "isAvailable": true
     },
     {
       "id": "pasta-fettuccine-shrimp",
       "categoryId": "pasta",
       "order": 2,
-      "name": { "en": "Fettuccine Alfredo Shrimp", "ar": "فوتوتشيني ألفريدو جمبري" },
+      "name": {
+        "en": "Fettuccine Alfredo Shrimp",
+        "ar": "فوتوتشيني ألفريدو جمبري"
+      },
       "price": "$12.0",
-      "description": { "en": "Creamy Alfredo sauce, sautéed mushrooms, and succulent shrimps.", "ar": "باستا فوتوتشيني بصلصة ألفريدو الإيطالية، فطر طازج، وروبيان شهي." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Creamy Alfredo sauce, mushrooms, and shrimp.",
+        "ar": "صلصة ألفريدو كريمية غنية مع الفطر والجمبري."
+      },
+      "image": "/data/images/pasta-fettuccine-shrimp.avif",
       "isAvailable": true
     },
     {
       "id": "pasta-mac-cheese",
       "categoryId": "pasta",
       "order": 3,
-      "name": { "en": "Mac & Cheese", "ar": "ماك آند تشيز" },
+      "name": {
+        "en": "Mac & Cheese",
+        "ar": "ماك آند تشيز"
+      },
       "price": "$7.0",
-      "description": { "en": "Macaroni pasta simmered in a rich, comforting cheddar cheese sauce.", "ar": "معكرونة في صلصة جبنة الشيدر الذهبية الغنية والشهية." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Macaroni in a rich, creamy cheddar cheese sauce.",
+        "ar": "مكرونة بصلصة جبنة الشيدر الكريمية الغنية واللذيذة."
+      },
+      "image": "/data/images/pasta-mac-and-cheese.avif",
       "isAvailable": true
     },
-
     {
       "id": "plate-chicken-mushroom",
       "categoryId": "plates",
       "order": 1,
-      "name": { "en": "Chicken Mushroom", "ar": "تشيكن ماشروم" },
+      "name": {
+        "en": "Chicken Mushroom",
+        "ar": "تشيكن ماشروم"
+      },
       "price": "$13.0",
-      "description": { "en": "Two grilled chicken fillets topped with creamy mushroom sauce, served with your choice of fries or wedges and steamed vegetables.", "ar": "قطعتان من صدور الدجاج المشوية مع صلصة الفطر الكريمية، تقدم مع اختيارك من البطاطا المقلية أو الودجز وخضار سوتيه." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Two grilled chicken fillets topped with creamy mushroom sauce, served with your choice of fries or wedges and steamed vegetables.",
+        "ar": "قطعتان من فيليه الدجاج المشوي بصلصة الفطر الكريمية، مع خيارك من البطاطا المقلية أو الودجز وخضار سوتيه."
+      },
+      "image": "/data/images/plate-chicken-mushroom.avif",
       "isAvailable": true
     },
     {
       "id": "plate-steak-mushroom",
       "categoryId": "plates",
       "order": 2,
-      "name": { "en": "Steak Mushroom", "ar": "ستيك ماشروم" },
+      "name": {
+        "en": "Steak Mushroom",
+        "ar": "ستيك ماشروم"
+      },
       "price": "$16.0",
-      "description": { "en": "200g prime beef fillet topped with rich creamy mushroom sauce, served with your choice of fries or wedges and steamed vegetables.", "ar": "ستيك فيليه بقري فاخر ٢٠٠غ مغطى بصلصة الفطر الغنية، يقدم مع بطاطا مقلية أو ودجز وخضار سوتيه." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "200g beef fillet topped with creamy mushroom sauce, served with your choice of fries or wedges and steamed vegetables.",
+        "ar": "فيليه لحم بقر ٢٠٠ غرام مع صلصة الفطر الكريمية، يقدم مع البطاطا وخضار سوتيه."
+      },
+      "image": "/data/images/plate-steak-mushroom.avif",
       "isAvailable": true
     },
     {
-      "id": "plate-lokis-chicken",
+      "id": "plate-lokis-chicken-bowl",
       "categoryId": "plates",
       "order": 3,
-      "name": { "en": "Loki's Chicken Plate", "ar": "طبق لوكيز دجاج" },
+      "name": {
+        "en": "Loki's Chicken Bowl",
+        "ar": "وعاء لوكيز دجاج"
+      },
       "price": "$12.0",
-      "description": { "en": "Tender spiced chicken served with authentic Swedish kebab sauce, golden fries, and crisp fresh vegetables.", "ar": "دجاج متبل شهي يقدم مع صلصة الكباب السويدية الأصلية، بطاطا مقلية، وخضار طازجة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Chicken served with house sauce, fries, and fresh vegetables.",
+        "ar": "دجاج يقدم مع صلصة لوكيز الخاصة، بطاطا مقلية، وخضار طازجة."
+      },
+      "image": "/data/images/plate-lokis-chicken-bowl.avif",
       "isAvailable": true
     },
     {
-      "id": "plate-lokis-kebab",
+      "id": "plate-lokis-kebab-bowl",
       "categoryId": "plates",
       "order": 4,
-      "name": { "en": "Loki's Kebab Plate", "ar": "طبق لوكيز كباب" },
+      "name": {
+        "en": "Loki's Kebab Bowl",
+        "ar": "وعاء لوكيز كباب"
+      },
       "price": "$15.0",
-      "description": { "en": "Signature kebab served with authentic Swedish kebab sauce, golden fries, and fresh vegetables.", "ar": "كباب لوكيز الخاص يقدم مع صلصة الكباب السويدية، بطاطا مقلية مقرمشة، وخضار منوعة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Kebab served with house sauce, fries, and fresh vegetables.",
+        "ar": "كباب يقدم مع صلصة لوكيز الخاصة، بطاطا مقلية، وخضار طازجة."
+      },
+      "image": "/data/images/plate-lokis-kebab-bowl.avif",
       "isAvailable": true
     },
-
     {
       "id": "pz-fruit",
       "categoryId": "pizza",
       "subcategoryId": "vegetarian",
-      "subcategory": { "en": "Vegetarian", "ar": "نباتي" },
+      "subcategory": {
+        "en": "Vegetarian",
+        "ar": "نباتي"
+      },
       "order": 1,
-      "name": { "en": "Fruit Pizza", "ar": "فروت بيتزا" },
+      "name": {
+        "en": "Fruit Pizza",
+        "ar": "فروت بيتزا"
+      },
       "price": "$8.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$8.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$10.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$15.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$22.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$8.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$10.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$15.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$22.0"
+        }
       ],
-      "description": { "en": "Pineapple, bananas, nuts, and curry spice.", "ar": "أناناس، موز، مكسرات، وتوابل الكاري المميزة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Pineapple, bananas, nuts, and curry spice.",
+        "ar": "أناناس، موز، مكسرات، وتوابل الكاري المميزة."
+      },
+      "image": "/data/images/pizza-fruit.avif",
       "isAvailable": true
     },
     {
       "id": "pz-vegetarian",
       "categoryId": "pizza",
       "subcategoryId": "vegetarian",
-      "subcategory": { "en": "Vegetarian", "ar": "نباتي" },
+      "subcategory": {
+        "en": "Vegetarian",
+        "ar": "نباتي"
+      },
       "order": 2,
-      "name": { "en": "Vegetarian", "ar": "بيتزا خضار" },
+      "name": {
+        "en": "Vegetarian",
+        "ar": "بيتزا خضار"
+      },
       "price": "$8.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$8.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$10.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$15.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$22.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$8.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$10.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$15.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$22.0"
+        }
       ],
-      "description": { "en": "Feta cheese, mushrooms, asparagus, onions, bell peppers, olives, and béarnaise sauce.", "ar": "جبنة فيتا، فطر، هليون، بصل، فلفل رومي، زيتون، وصلصة بيرنيز." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Feta cheese, mushrooms, asparagus, onions, bell peppers, olives, and béarnaise sauce.",
+        "ar": "جبنة فيتا، فطر، هليون، بصل، فليفلة، زيتون، وصلصة بيرنيز."
+      },
+      "image": "/data/images/pizza-vegetarian.avif",
       "isAvailable": true
     },
     {
       "id": "pz-margherita",
       "categoryId": "pizza",
       "subcategoryId": "vegetarian",
-      "subcategory": { "en": "Vegetarian", "ar": "نباتي" },
+      "subcategory": {
+        "en": "Vegetarian",
+        "ar": "نباتي"
+      },
       "order": 3,
-      "name": { "en": "Margherita", "ar": "مارغريتا" },
+      "name": {
+        "en": "Margherita",
+        "ar": "مارغريتا"
+      },
       "price": "$8.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$8.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$10.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$15.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$22.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$8.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$10.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$15.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$22.0"
+        }
       ],
-      "description": { "en": "Gouda cheese and rich Italian tomato sauce.", "ar": "جبنة غودا الغنية وصلصة طماطم محضرة على الأصول." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Gouda cheese and tomato sauce.",
+        "ar": "جبنة غودا وصلصة طماطم إيطالية طازجة."
+      },
+      "image": "/data/images/pizza-margherita.avif",
       "isAvailable": true
     },
     {
       "id": "pz-four-cheese",
       "categoryId": "pizza",
       "subcategoryId": "vegetarian",
-      "subcategory": { "en": "Vegetarian", "ar": "نباتي" },
+      "subcategory": {
+        "en": "Vegetarian",
+        "ar": "نباتي"
+      },
       "order": 4,
-      "name": { "en": "Four Cheese", "ar": "أربعة أجبان" },
+      "name": {
+        "en": "Four Cheese",
+        "ar": "أربعة أجبان"
+      },
       "price": "$11.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$11.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$14.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$18.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$25.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$11.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$14.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$18.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$25.0"
+        }
       ],
-      "description": { "en": "A luxurious melt of four fine artisan cheeses.", "ar": "مزيج فاخر وشهي من أربعة أجبان ذائبة ومختارة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "A blend of four cheeses.",
+        "ar": "مزيج فاخر من أربعة أنواع أجبان غنية ولذيذة."
+      },
+      "image": "/data/images/pizza-four-cheese.avif",
       "isAvailable": true
     },
     {
       "id": "pz-four-cheese-honey",
       "categoryId": "pizza",
       "subcategoryId": "vegetarian",
-      "subcategory": { "en": "Vegetarian", "ar": "نباتي" },
+      "subcategory": {
+        "en": "Vegetarian",
+        "ar": "نباتي"
+      },
       "order": 5,
-      "name": { "en": "Four Cheese Honey", "ar": "أربعة أجبان بالعسل" },
+      "name": {
+        "en": "Four Cheese Honey",
+        "ar": "أربعة أجبان بالعسل"
+      },
       "price": "$11.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$11.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$14.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$18.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$25.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$11.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$14.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$18.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$25.0"
+        }
       ],
-      "description": { "en": "Four cheeses finished with a sweet drizzle of natural honey.", "ar": "أربعة أجبان فاخرة ممزوجة مع لمسة عسل طبيعي لتناغم لا يُقاوم." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Four cheeses finished with a drizzle of honey.",
+        "ar": "أربعة أجبان مع لمسة من العسل الطبيعي الفاخر."
+      },
+      "image": "/data/images/pizza-four-cheese-honey.avif",
       "isAvailable": true
     },
     {
       "id": "pz-nordic-green",
       "categoryId": "pizza",
       "subcategoryId": "vegetarian",
-      "subcategory": { "en": "Vegetarian", "ar": "نباتي" },
+      "subcategory": {
+        "en": "Vegetarian",
+        "ar": "نباتي"
+      },
       "order": 6,
-      "name": { "en": "Nordic Green", "ar": "نورديك غرين" },
+      "name": {
+        "en": "Nordic Green",
+        "ar": "نورديك غرين"
+      },
       "price": "$8.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$8.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$10.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$15.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$22.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$8.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$10.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$15.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$22.0"
+        }
       ],
-      "description": { "en": "Fresh spinach, mixed toasted nuts, and shaved parmesan cheese.", "ar": "سبانخ طازجة، مكسرات محمصة، وجبنة بارميزان إيطالية." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Spinach, mixed nuts, and Parmesan cheese.",
+        "ar": "سبانخ طازجة، مكسرات مشكلة، وجبنة بارميزان."
+      },
+      "image": "/data/images/pizza-nordic-green.avif",
       "isAvailable": true
     },
-
     {
       "id": "pz-marinara",
       "categoryId": "pizza",
       "subcategoryId": "seafood",
-      "subcategory": { "en": "Seafood", "ar": "مأكولات بحرية" },
+      "subcategory": {
+        "en": "Seafood",
+        "ar": "مأكولات بحرية"
+      },
       "order": 7,
-      "name": { "en": "Marinara", "ar": "مارينارا بحرية" },
+      "name": {
+        "en": "Marinara",
+        "ar": "مارينارا بحرية"
+      },
       "price": "$12.0",
       "isSpicy": true,
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$22.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$16.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$22.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.0"
+        }
       ],
-      "description": { "en": "Tuna, succulent shrimp, mussels, jalapeños, and fresh garlic.", "ar": "تونة، روبيان، بلح البحر، هالبينو حار، وثوم طازج." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Tuna, shrimp, mussels, jalapeños, and garlic.",
+        "ar": "تونة، جمبري، بلح البحر، هالابينو، وثوم طازج."
+      },
+      "image": "/data/images/pizza-marinara.avif",
       "isAvailable": true
     },
     {
       "id": "pz-eiffel",
       "categoryId": "pizza",
       "subcategoryId": "seafood",
-      "subcategory": { "en": "Seafood", "ar": "مأكولات بحرية" },
+      "subcategory": {
+        "en": "Seafood",
+        "ar": "مأكولات بحرية"
+      },
       "order": 8,
-      "name": { "en": "Eiffel", "ar": "إيفل" },
+      "name": {
+        "en": "Eiffel",
+        "ar": "إيفل"
+      },
       "price": "$12.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$22.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$16.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$22.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.0"
+        }
       ],
-      "description": { "en": "Shrimp, pepperoni, feta cheese, mushrooms, and rich béarnaise sauce.", "ar": "جمبري، بيبيروني، جبنة فيتا، فطر، وصلصة بيرنيز." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Shrimp, pepperoni, feta cheese, mushrooms, and béarnaise sauce.",
+        "ar": "جمبري، بيبروني، جبنة فيتا، فطر، وصلصة بيرنيز."
+      },
+      "image": "/data/images/pizza-eiffel.avif",
       "isAvailable": true
     },
     {
       "id": "pz-perla",
       "categoryId": "pizza",
       "subcategoryId": "seafood",
-      "subcategory": { "en": "Seafood", "ar": "مأكولات بحرية" },
+      "subcategory": {
+        "en": "Seafood",
+        "ar": "مأكولات بحرية"
+      },
       "order": 9,
-      "name": { "en": "Perla", "ar": "بيرلا" },
+      "name": {
+        "en": "Perla",
+        "ar": "بيرلا"
+      },
       "price": "$12.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$22.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$16.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$22.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.0"
+        }
       ],
-      "description": { "en": "Tuna, shrimp, bell peppers, mushrooms, and Swedish kebab sauce.", "ar": "تونة، جمبري، فليفلة، فطر، وصلصة الكباب السويدية." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Tuna, shrimp, bell peppers, mushrooms, and house sauce.",
+        "ar": "تونة، جمبري، فليفلة، فطر، وصلصة لوكيز الخاصة."
+      },
+      "image": "/data/images/pizza-perla.avif",
       "isAvailable": true
     },
     {
       "id": "pz-dynamite-shrimp",
       "categoryId": "pizza",
       "subcategoryId": "seafood",
-      "subcategory": { "en": "Seafood", "ar": "مأكولات بحرية" },
+      "subcategory": {
+        "en": "Seafood",
+        "ar": "مأكولات بحرية"
+      },
       "order": 10,
-      "name": { "en": "Dynamite Shrimp", "ar": "ديناميت شرمب بيتزا" },
+      "name": {
+        "en": "Dynamite Shrimp",
+        "ar": "ديناميت شرمب بيتزا"
+      },
       "price": "$12.0",
       "isSpicy": true,
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$22.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$16.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$22.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.0"
+        }
       ],
-      "description": { "en": "Shrimp, mushrooms, peppers, onions, tomatoes, and dynamite sauce.", "ar": "جمبري، فطر، فليفلة، بصل، طماطم، وصلصة ديناميت حارة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Shrimp, mushrooms, peppers, onions, tomatoes, and dynamite sauce.",
+        "ar": "جمبري، فطر، فليفلة، بصل، بندورة، وصلصة ديناميت حارة."
+      },
+      "image": "/data/images/pizza-dynamite-shrimp.avif",
       "isAvailable": true
     },
-
     {
       "id": "pz-france",
       "categoryId": "pizza",
       "subcategoryId": "chicken",
-      "subcategory": { "en": "Chicken", "ar": "دجاج" },
+      "subcategory": {
+        "en": "Chicken",
+        "ar": "دجاج"
+      },
       "order": 11,
-      "name": { "en": "France", "ar": "فرانس" },
+      "name": {
+        "en": "France",
+        "ar": "فرانس"
+      },
       "price": "$11.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$11.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$14.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$18.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$25.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$11.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$14.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$18.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$25.0"
+        }
       ],
-      "description": { "en": "Chicken, bell peppers, mushrooms, curry seasoning, and Swedish kebab sauce.", "ar": "دجاج، فليفلة، فطر، بهارات كاري، وصلصة الكباب السويدية." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Chicken, bell peppers, mushrooms, curry seasoning, and house sauce.",
+        "ar": "دجاج، فليفلة، فطر، بهارات كاري، وصلصة لوكيز الخاصة."
+      },
+      "image": "/data/images/pizza-france.avif",
       "isAvailable": true
     },
     {
       "id": "pz-chicken-pizza",
       "categoryId": "pizza",
       "subcategoryId": "chicken",
-      "subcategory": { "en": "Chicken", "ar": "دجاج" },
+      "subcategory": {
+        "en": "Chicken",
+        "ar": "دجاج"
+      },
       "order": 12,
-      "name": { "en": "Chicken Pizza", "ar": "تشيكن بيتزا" },
+      "name": {
+        "en": "Chicken Pizza",
+        "ar": "تشيكن بيتزا"
+      },
       "price": "$11.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$11.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$14.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$18.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$25.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$11.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$14.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$18.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$25.0"
+        }
       ],
-      "description": { "en": "Chicken, lettuce, tomatoes, cucumber, onions, pepperoni, and Swedish kebab sauce.", "ar": "دجاج، خس، طماطم، خيار، بصل، بيبيروني، وصلصة الكباب السويدية." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Chicken, lettuce, tomatoes, cucumber, onions, pepperoni, and house sauce.",
+        "ar": "دجاج، خس، بندورة، خيار، بصل، بيبروني، وصلصة لوكيز الخاصة."
+      },
+      "image": "/data/images/pizza-chicken.avif",
       "isAvailable": true
     },
     {
       "id": "pz-dynamite-chicken",
       "categoryId": "pizza",
       "subcategoryId": "chicken",
-      "subcategory": { "en": "Chicken", "ar": "دجاج" },
+      "subcategory": {
+        "en": "Chicken",
+        "ar": "دجاج"
+      },
       "order": 13,
-      "name": { "en": "Dynamite Chicken", "ar": "ديناميت تشيكن" },
+      "name": {
+        "en": "Dynamite Chicken",
+        "ar": "ديناميت تشيكن"
+      },
       "price": "$11.0",
       "isSpicy": true,
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$11.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$14.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$18.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$25.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$11.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$14.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$18.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$25.0"
+        }
       ],
-      "description": { "en": "Chicken, mushrooms, peppers, onions, tomatoes, and dynamite sauce.", "ar": "دجاج، فطر، فليفلة، بصل، طماطم، وصلصة ديناميت حارة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Chicken, mushrooms, peppers, onions, tomatoes, and dynamite sauce.",
+        "ar": "دجاج، فطر، فليفلة، بصل، بندورة، وصلصة ديناميت حارة."
+      },
+      "image": "/data/images/pizza-dynamite-chicken.avif",
       "isAvailable": true
     },
     {
       "id": "pz-chicken-pommes",
       "categoryId": "pizza",
       "subcategoryId": "chicken",
-      "subcategory": { "en": "Chicken", "ar": "دجاج" },
+      "subcategory": {
+        "en": "Chicken",
+        "ar": "دجاج"
+      },
       "order": 14,
-      "name": { "en": "Chicken Pommes", "ar": "تشيكن بومس" },
+      "name": {
+        "en": "Chicken Pommes",
+        "ar": "تشيكن بومس"
+      },
       "price": "$11.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$11.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$14.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$18.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$25.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$11.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$14.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$18.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$25.0"
+        }
       ],
-      "description": { "en": "Chicken, crispy fries, and Swedish kebab sauce over mozzarella.", "ar": "دجاج، بطاطا مقلية مقرمشة، وصلصة الكباب السويدية فوق الجبنة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Chicken, fries, and house sauce.",
+        "ar": "دجاج متبل، بطاطا مقلية، وصلصة لوكيز الخاصة."
+      },
+      "image": "/data/images/pizza-chicken-pommes.avif",
       "isAvailable": true
     },
-
     {
       "id": "pz-kebab-pommes",
       "categoryId": "pizza",
       "subcategoryId": "beef",
-      "subcategory": { "en": "Beef", "ar": "لحوم" },
+      "subcategory": {
+        "en": "Beef",
+        "ar": "لحوم"
+      },
       "order": 15,
-      "name": { "en": "Kebab Pommes", "ar": "كباب بومس" },
+      "name": {
+        "en": "Kebab Pommes",
+        "ar": "كباب بومس"
+      },
       "price": "$12.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$23.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$16.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$23.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.0"
+        }
       ],
-      "description": { "en": "Kebab, crispy golden fries, and Swedish kebab sauce.", "ar": "كباب متبل، بطاطا مقلية، وصلصة الكباب السويدية الشهيرة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Kebab, fries, and house sauce.",
+        "ar": "لحم كباب متبل، بطاطا مقلية، وصلصة لوكيز الخاصة."
+      },
+      "image": "/data/images/pizza-kebab-pommes.avif",
       "isAvailable": true
     },
     {
       "id": "pz-ciao-ciao",
       "categoryId": "pizza",
       "subcategoryId": "beef",
-      "subcategory": { "en": "Beef", "ar": "لحوم" },
+      "subcategory": {
+        "en": "Beef",
+        "ar": "لحوم"
+      },
       "order": 16,
-      "name": { "en": "Ciao Ciao", "ar": "تشاو تشاو" },
+      "name": {
+        "en": "Ciao Ciao",
+        "ar": "تشاو تشاو"
+      },
       "price": "$12.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$23.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$16.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$23.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.0"
+        }
       ],
-      "description": { "en": "Ground beef, fresh garlic, and sautéed mushrooms.", "ar": "لحم بقري مفروم، ثوم طازج، وفطر سوتيه." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Ground beef, garlic, and mushrooms.",
+        "ar": "لحم مفروم، ثوم طازج، وفطر."
+      },
+      "image": "/data/images/pizza-ciao-ciao.avif",
       "isAvailable": true
     },
     {
       "id": "pz-seine",
       "categoryId": "pizza",
       "subcategoryId": "beef",
-      "subcategory": { "en": "Beef", "ar": "لحوم" },
+      "subcategory": {
+        "en": "Beef",
+        "ar": "لحوم"
+      },
       "order": 17,
-      "name": { "en": "Seine", "ar": "سين" },
+      "name": {
+        "en": "Seine",
+        "ar": "سين"
+      },
       "price": "$12.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$23.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$16.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$23.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.0"
+        }
       ],
-      "description": { "en": "Ground beef, feta cheese, red onion, and Swedish kebab sauce.", "ar": "لحم مفروم، جبنة فيتا، بصل أحمر، وصلصة الكباب السويدية." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Ground beef, feta cheese, red onions, and house sauce.",
+        "ar": "لحم مفروم، جبنة فيتا، بصل أحمر، وصلصة لوكيز الخاصة."
+      },
+      "image": "/data/images/pizza-seine.avif",
       "isAvailable": true
     },
     {
       "id": "pz-la-mafia",
       "categoryId": "pizza",
       "subcategoryId": "beef",
-      "subcategory": { "en": "Beef", "ar": "لحوم" },
+      "subcategory": {
+        "en": "Beef",
+        "ar": "لحوم"
+      },
       "order": 18,
-      "name": { "en": "La Mafia", "ar": "لا مافيا" },
+      "name": {
+        "en": "La Mafia",
+        "ar": "لا مافيا"
+      },
       "price": "$12.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$23.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$16.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$23.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.0"
+        }
       ],
-      "description": { "en": "Steak fillet, turkey bacon, mushrooms, tomatoes, bell peppers, and garlic sauce.", "ar": "ستيك فيليه بقري، بيكون حبش، فطر، طماطم، فليفلة، وصلصة الثوم." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Steak fillet, turkey bacon, mushrooms, tomatoes, bell peppers, and garlic sauce.",
+        "ar": "فيليه ستيك، بيكون حبش، فطر، بندورة، فليفلة، وصلصة ثوم."
+      },
+      "image": "/data/images/pizza-la-mafia.avif",
       "isAvailable": true
     },
     {
       "id": "pz-mexicana",
       "categoryId": "pizza",
       "subcategoryId": "beef",
-      "subcategory": { "en": "Beef", "ar": "لحوم" },
+      "subcategory": {
+        "en": "Beef",
+        "ar": "لحوم"
+      },
       "order": 19,
-      "name": { "en": "Mexicana", "ar": "مكسيكانا" },
+      "name": {
+        "en": "Mexicana",
+        "ar": "مكسيكانا"
+      },
       "price": "$12.0",
       "isSpicy": true,
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$23.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$16.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$23.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.0"
+        }
       ],
-      "description": { "en": "Ground beef, pepperoni, red onion, bell peppers, jalapeños, fresh garlic, taco sauce, and crunchy nachos.", "ar": "لحم مفروم، بيبيروني، بصل أحمر، فليفلة، هالبينو، ثوم، صلصة تاكو، وناتشوز مقرمش." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Ground beef, pepperoni, red onions, bell peppers, jalapeños, fresh garlic, taco sauce, and nachos.",
+        "ar": "لحم مفروم، بيبروني، بصل أحمر، فليفلة، هالابينو، ثوم طازج، صلصة تاكو، وناتشوز."
+      },
+      "image": "/data/images/pizza-mexicana.avif",
       "isAvailable": true
     },
     {
       "id": "pz-black-white",
       "categoryId": "pizza",
       "subcategoryId": "beef",
-      "subcategory": { "en": "Beef", "ar": "لحوم" },
+      "subcategory": {
+        "en": "Beef",
+        "ar": "لحوم"
+      },
       "order": 20,
-      "name": { "en": "Black & White", "ar": "بلاك آند وايت" },
+      "name": {
+        "en": "Black & White",
+        "ar": "بلاك آند وايت"
+      },
       "price": "$12.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$23.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$16.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$23.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.0"
+        }
       ],
-      "description": { "en": "Steak fillet, turkey bacon, mushrooms, bell peppers, and béarnaise sauce.", "ar": "ستيك فيليه، بيكون حبش، فطر، فليفلة، وصلصة بيرنيز." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Steak fillet, turkey bacon, mushrooms, bell peppers, and béarnaise sauce.",
+        "ar": "فيليه ستيك، بيكون حبش، فطر، فليفلة، وصلصة بيرنيز."
+      },
+      "image": "/data/images/pizza-black-and-white.avif",
       "isAvailable": true
     },
     {
       "id": "pz-kebab-pizza",
       "categoryId": "pizza",
       "subcategoryId": "beef",
-      "subcategory": { "en": "Beef", "ar": "لحوم" },
+      "subcategory": {
+        "en": "Beef",
+        "ar": "لحوم"
+      },
       "order": 21,
-      "name": { "en": "Kebab Pizza", "ar": "كباب بيتزا" },
+      "name": {
+        "en": "Kebab Pizza",
+        "ar": "كباب بيتزا"
+      },
       "price": "$12.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$23.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$16.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$23.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.0"
+        }
       ],
-      "description": { "en": "Kebab, mushrooms, bell peppers, lettuce, tomatoes, cucumber, red onion, feferoni, and Swedish kebab sauce.", "ar": "كباب، فطر، فليفلة، خس، طماطم، خيار، بصل أحمر، فيفيروني، وصلصة الكباب السويدية." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Kebab, mushrooms, bell peppers, lettuce, tomatoes, cucumber, red onions, feferoni, and house sauce.",
+        "ar": "كباب، فطر، فليفلة، خس، بندورة، خيار، بصل أحمر، فلفل فيفيروني، وصلصة لوكيز الخاصة."
+      },
+      "image": "/data/images/pizza-kebab.avif",
       "isAvailable": true
     },
     {
       "id": "pz-pepperoni",
       "categoryId": "pizza",
       "subcategoryId": "beef",
-      "subcategory": { "en": "Beef", "ar": "لحوم" },
+      "subcategory": {
+        "en": "Beef",
+        "ar": "لحوم"
+      },
       "order": 22,
-      "name": { "en": "Pepperoni", "ar": "بيبيروني" },
+      "name": {
+        "en": "Pepperoni",
+        "ar": "بيبيروني"
+      },
       "price": "$9.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$9.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$12.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$15.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$18.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$9.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$15.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$18.0"
+        }
       ],
-      "description": { "en": "Classic beef pepperoni and rich mozzarella cheese.", "ar": "بيبيروني لحم بقري كلاسيكي وجبنة موزاريلا ذائبة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Pepperoni and cheese.",
+        "ar": "بيبروني بقري فاخر مع جبنة ذائبة غنية."
+      },
+      "image": "/data/images/pizza-pepperoni.avif",
       "isAvailable": true
     },
     {
       "id": "pz-honey-pepperoni",
       "categoryId": "pizza",
       "subcategoryId": "beef",
-      "subcategory": { "en": "Beef", "ar": "لحوم" },
+      "subcategory": {
+        "en": "Beef",
+        "ar": "لحوم"
+      },
       "order": 23,
-      "name": { "en": "Honey Pepperoni", "ar": "هوني بيبيروني" },
+      "name": {
+        "en": "Honey Pepperoni",
+        "ar": "هوني بيبيروني"
+      },
       "price": "$9.0",
       "isSpicy": true,
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$9.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$12.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$15.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$18.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$9.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$15.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$18.0"
+        }
       ],
-      "description": { "en": "Crisp pepperoni, spicy jalapeños, and natural hot honey drizzle.", "ar": "بيبيروني مقرمش، هالبينو حار، ورشة عسل حار مميزة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Pepperoni, jalapeños, and hot honey.",
+        "ar": "بيبروني، هالابينو حار، وعسل حار مميز."
+      },
+      "image": "/data/images/pizza-honey-pepperoni.avif",
       "isAvailable": true
     },
     {
       "id": "pz-bbq-drizzle",
       "categoryId": "pizza",
       "subcategoryId": "beef",
-      "subcategory": { "en": "Beef", "ar": "لحوم" },
+      "subcategory": {
+        "en": "Beef",
+        "ar": "لحوم"
+      },
       "order": 24,
-      "name": { "en": "BBQ Drizzle", "ar": "باربيكيو دريزل" },
+      "name": {
+        "en": "BBQ Drizzle",
+        "ar": "باربيكيو دريزل"
+      },
       "price": "$9.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$9.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$12.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$15.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$18.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$9.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$12.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$15.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$18.0"
+        }
       ],
-      "description": { "en": "Tender pulled beef, red onion, and smoky BBQ drizzle.", "ar": "لحم بقري مسحب طري، بصل أحمر، وصلصة باربيكيو مدخنة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Pulled beef, red onions, and a BBQ drizzle.",
+        "ar": "لحم بقري ممزق، بصل أحمر، ولمسة من صلصة الباربيكيو."
+      },
+      "image": "/data/images/pizza-bbq-drizzle.avif",
       "isAvailable": true
     },
-
     {
       "id": "pz-roma",
       "categoryId": "pizza",
       "subcategoryId": "mixes",
-      "subcategory": { "en": "Mixes", "ar": "تشكيلات خاصة" },
+      "subcategory": {
+        "en": "Mixes",
+        "ar": "تشكيلات خاصة"
+      },
       "order": 25,
-      "name": { "en": "Roma", "ar": "روما" },
+      "name": {
+        "en": "Roma",
+        "ar": "روما"
+      },
       "price": "$13.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$13.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$22.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$13.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$16.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$22.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.0"
+        }
       ],
-      "description": { "en": "Steak fillet, shrimp, tomatoes, feferoni, mushrooms, and béarnaise sauce.", "ar": "ستيك فيليه، روبيان، طماطم، فيفيروني، فطر، وصلصة بيرنيز." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Steak fillet, shrimp, tomatoes, feferoni, mushrooms, and béarnaise sauce.",
+        "ar": "فيليه ستيك، جمبري، بندورة، فلفل فيفيروني، فطر، وصلصة بيرنيز."
+      },
+      "image": "/data/images/pizza-roma.avif",
       "isAvailable": true
     },
     {
       "id": "pz-gorgonzola",
       "categoryId": "pizza",
       "subcategoryId": "mixes",
-      "subcategory": { "en": "Mixes", "ar": "تشكيلات خاصة" },
+      "subcategory": {
+        "en": "Mixes",
+        "ar": "تشكيلات خاصة"
+      },
       "order": 26,
-      "name": { "en": "Gorgonzola", "ar": "غورغونزولا" },
+      "name": {
+        "en": "Gorgonzola",
+        "ar": "غورغونزولا"
+      },
       "price": "$14.0",
       "sizes": [
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$14.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$17.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$23.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.5" }
+        {
+          "id": "s",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "dimension": "25 cm",
+          "price": "$14.0"
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "Medium",
+            "ar": "وسط"
+          },
+          "dimension": "31 cm",
+          "price": "$17.0"
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$23.0"
+        },
+        {
+          "id": "xl",
+          "name": {
+            "en": "X-Large",
+            "ar": "كبير جداً"
+          },
+          "dimension": "50 cm",
+          "price": "$28.5"
+        }
       ],
-      "description": { "en": "Steak fillet, shrimp, turkey bacon, mushrooms, asparagus, gorgonzola cheese, and béarnaise sauce.", "ar": "ستيك فيليه، روبيان، بيكون حبش، فطر، هليون، جبنة غورغونزولا، وصلصة بيرنيز." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Steak fillet, shrimp, turkey bacon, mushrooms, asparagus, Gorgonzola cheese, and béarnaise sauce.",
+        "ar": "فيليه ستيك، جمبري، بيكون حبش، فطر، هليون، جبنة غورغونزولا، وصلصة بيرنيز."
+      },
+      "image": "/data/images/pizza-gorgonzola.avif",
       "isAvailable": true
     },
     {
       "id": "pz-lokis-signature",
       "categoryId": "pizza",
       "subcategoryId": "mixes",
-      "subcategory": { "en": "Mixes", "ar": "تشكيلات خاصة" },
+      "subcategory": {
+        "en": "Mixes",
+        "ar": "تشكيلات خاصة"
+      },
       "order": 27,
-      "name": { "en": "Loki's Signature Pizza", "ar": "بيتزا لوكيز الفاخرة" },
+      "name": {
+        "en": "Loki's Signature Pizza",
+        "ar": "بيتزا لوكيز الفاخرة"
+      },
       "price": "$30.0",
-      "badge": { "en": "Large 42cm Exclusive", "ar": "حجم كبير ٤٢سم حصرياً" },
       "sizes": [
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$30.0" }
+        {
+          "id": "l",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "dimension": "42 cm",
+          "price": "$30.0"
+        }
       ],
-      "description": { "en": "Shrimp, pepperoni, mortadella, kebab, chicken & turkey bacon. Served with your choice of Fresh Salad or Loki's Bowl in the center.", "ar": "روبيان، بيبيروني، مرتديلا، كباب، دجاج وبيكون حبش. تقدم مع اختيارك من السلطة الطازجة أو وعاء لوكيز في المنتصف." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "defaultSize": "l",
+      "description": {
+        "en": "Shrimp, pepperoni, kebab, chicken, mushrooms, and turkey bacon. Served with your choice of fresh salad or Loki's Bowl in the center.",
+        "ar": "جمبري، بيبروني، كباب، دجاج، فطر، وبيكون حبش. تقدم مع خيارك من السلطة الطازجة أو وعاء لوكيز في الوسط."
+      },
+      "image": "/data/images/pizza-lokis-signature.avif",
       "isAvailable": true
     },
-    {
-      "id": "pz-viking-feast",
-      "categoryId": "pizza",
-      "subcategoryId": "beef",
-      "subcategory": { "en": "Beef", "ar": "لحوم" },
-      "order": 28,
-      "name": { "en": "Viking Feast", "ar": "وليمة الفايكنغ" },
-      "price": "$9.0",
-      "defaultSize": "m",
-      "sizes": [
-        { "id": "xs", "name": { "en": "X-Small", "ar": "صغير جداً" }, "dimension": "20 cm", "price": "$9.0" },
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$16.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$23.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$28.0" }
-      ],
-      "description": { "en": "Tender steak fillet, pepperoni, roasted garlic, red onion, and creamy béarnaise sauce.", "ar": "فيليه ستيك طري، بيبيروني، ثوم مشوي، بصل أحمر وصلصة بيرنيز غنية." },
-      "image": "/data/layout_images/logo_pic.avif",
-      "isAvailable": true
-    },
-    {
-      "id": "pz-stockholm-truffle",
-      "categoryId": "pizza",
-      "subcategoryId": "vegetarian",
-      "subcategory": { "en": "Vegetarian", "ar": "نباتي" },
-      "order": 29,
-      "name": { "en": "Stockholm Truffle", "ar": "ستوكهولم ترافل" },
-      "price": "$9.0",
-      "defaultSize": "m",
-      "sizes": [
-        { "id": "xs", "name": { "en": "X-Small", "ar": "صغير جداً" }, "dimension": "20 cm", "price": "$9.0" },
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$15.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$20.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$26.0" }
-      ],
-      "description": { "en": "Wild sautéed mushrooms, truffle cream sauce, mozzarella, parmesan, and fresh herbs.", "ar": "فطر بري مشوح، صلصة كريمة الترافل الفاخرة، موزاريلا، بارميزان وأعشاب طازجة." },
-      "image": "/data/layout_images/logo_pic.avif",
-      "isAvailable": true
-    },
-    {
-      "id": "pz-nordic-salmon",
-      "categoryId": "pizza",
-      "subcategoryId": "seafood",
-      "subcategory": { "en": "Seafood", "ar": "مأكولات بحرية" },
-      "order": 30,
-      "name": { "en": "Nordic Salmon", "ar": "نورديك سالمون" },
-      "price": "$11.0",
-      "defaultSize": "m",
-      "sizes": [
-        { "id": "xs", "name": { "en": "X-Small", "ar": "صغير جداً" }, "dimension": "20 cm", "price": "$11.0" },
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$14.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$18.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$24.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$30.0" }
-      ],
-      "description": { "en": "Smoked salmon, capers, red onions, fresh dill cream, mozzarella, and lemon zest.", "ar": "سلمون مدخن، كابر، بصل أحمر، كريمة الشبت الطازجة، موزاريلا ولمسة ليمون." },
-      "image": "/data/layout_images/logo_pic.avif",
-      "isAvailable": true
-    },
-    {
-      "id": "pz-diavola-supreme",
-      "categoryId": "pizza",
-      "subcategoryId": "chicken",
-      "subcategory": { "en": "Chicken", "ar": "دجاج" },
-      "order": 31,
-      "name": { "en": "Diavola Supreme", "ar": "ديافولا سوبريم" },
-      "price": "$9.0",
-      "defaultSize": "m",
-      "isSpicy": true,
-      "sizes": [
-        { "id": "xs", "name": { "en": "X-Small", "ar": "صغير جداً" }, "dimension": "20 cm", "price": "$9.0" },
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$12.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$15.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$19.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$26.0" }
-      ],
-      "description": { "en": "Spicy chicken, pepperoni, fiery jalapeños, chili flakes, and hot honey glaze.", "ar": "دجاج حار، بيبيروني، هالبينو ناري، رقائق الفلفل الحار مع لمسة عسل حار." },
-      "image": "/data/layout_images/logo_pic.avif",
-      "isAvailable": true
-    },
-    {
-      "id": "pz-tropicana-gold",
-      "categoryId": "pizza",
-      "subcategoryId": "mixes",
-      "subcategory": { "en": "Mixes", "ar": "تشكيلات خاصة" },
-      "order": 32,
-      "name": { "en": "Tropicana Gold", "ar": "تروبيكانا غولد" },
-      "price": "$8.0",
-      "defaultSize": "m",
-      "sizes": [
-        { "id": "xs", "name": { "en": "X-Small", "ar": "صغير جداً" }, "dimension": "20 cm", "price": "$8.0" },
-        { "id": "s", "name": { "en": "Small", "ar": "صغير" }, "dimension": "25 cm", "price": "$11.0" },
-        { "id": "m", "name": { "en": "Medium", "ar": "وسط" }, "dimension": "31 cm", "price": "$14.0" },
-        { "id": "l", "name": { "en": "Large", "ar": "كبير" }, "dimension": "42 cm", "price": "$18.0" },
-        { "id": "xl", "name": { "en": "X-Large", "ar": "كبير جداً" }, "dimension": "50 cm", "price": "$24.0" }
-      ],
-      "description": { "en": "Smoked turkey bacon, golden sweet pineapple, mozzarella, and tangy BBQ swirl.", "ar": "بيكون حبش مدخن، أناناس ذهبي حلو، موزاريلا ولمسة صلصة باربيكيو غنية." },
-      "image": "/data/layout_images/logo_pic.avif",
-      "isAvailable": true
-    },
-
     {
       "id": "dr-water",
       "categoryId": "drinks",
       "order": 1,
-      "name": { "en": "Mineral Water", "ar": "مياه معدنية" },
-      "price": "$0.50",
-      "description": { "en": "Refreshing pure bottled water.", "ar": "مياه معدنية نقية ومنعشة." },
-      "image": "/data/images/images/water-1.avif",
+      "name": {
+        "en": "Water",
+        "ar": "مياه معدنية"
+      },
+      "price": "$0.5",
+      "description": {
+        "en": "Refreshing bottled mineral water.",
+        "ar": "مياه معدنية معبأة نقية ومنعشة."
+      },
+      "image": "/data/images/drink-water.avif",
       "isAvailable": true
     },
     {
       "id": "dr-soft-drink",
       "categoryId": "drinks",
       "order": 2,
-      "name": { "en": "Soft Drink", "ar": "مشروبات غازية" },
+      "name": {
+        "en": "Soft Drink",
+        "ar": "مشروبات غازية"
+      },
       "price": "$1.5",
-      "description": { "en": "Chilled canned soft drinks (Pepsi, 7Up, Mirinda).", "ar": "مشروبات غازية باردة ومنعشة (بيبسي، سفن أب، ميرندا)." },
-      "image": "/data/images/images/pepsi.avif",
+      "description": {
+        "en": "Choice of chilled soft drinks.",
+        "ar": "مجموعة مختارة من المشروبات الغازية المنعشة."
+      },
+      "image": "/data/images/drink-soft-drink.avif",
       "isAvailable": true
     },
     {
       "id": "dr-energy-drink",
       "categoryId": "drinks",
       "order": 3,
-      "name": { "en": "Energy Drink", "ar": "مشروب طاقة" },
+      "name": {
+        "en": "Energy Drink",
+        "ar": "مشروب طاقة"
+      },
       "price": "$2.0",
-      "description": { "en": "Chilled premium energy drink.", "ar": "مشروب طاقة بارد ومميز." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Revitalizing energy drink.",
+        "ar": "مشروب طاقة منعش يمنحك الحيوية والنشاط."
+      },
+      "image": "/data/images/drink-energy-drink.avif",
       "isAvailable": true
     },
     {
-      "id": "dr-ice-tea",
+      "id": "dr-iced-tea",
       "categoryId": "drinks",
       "order": 4,
-      "name": { "en": "Ice Tea", "ar": "شاي مثلج" },
+      "name": {
+        "en": "Iced Tea",
+        "ar": "شاي مثلج"
+      },
       "price": "$2.0",
-      "description": { "en": "Refreshing iced tea in fresh fruit flavor.", "ar": "شاي مثلج بنكهة فواكه منعشة وباردة." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Chilled and refreshing iced tea.",
+        "ar": "شاي مثلج بنكهات منعشة ولذيذة."
+      },
+      "image": "/data/images/drink-iced-tea.avif",
       "isAvailable": true
     },
     {
       "id": "dr-lebanese-coffee",
       "categoryId": "drinks",
       "order": 5,
-      "name": { "en": "Lebanese Coffee", "ar": "قهوة لبنانية" },
+      "name": {
+        "en": "Lebanese Coffee",
+        "ar": "قهوة لبنانية"
+      },
       "price": "$2.0",
-      "description": { "en": "Rich traditional Lebanese coffee brewed with cardamom.", "ar": "قهوة لبنانية أصيلة وغنية بالهيل محضرة على الأصول." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Traditional brewed Lebanese coffee.",
+        "ar": "قهوة لبنانية أصيلة محضرة بعناية على الأصول."
+      },
+      "image": "/data/images/drink-lebanese-coffee.avif",
       "isAvailable": true
     },
-
+    {
+      "id": "dr-juice",
+      "categoryId": "drinks",
+      "order": 6,
+      "name": {
+        "en": "Juice",
+        "ar": "عصير"
+      },
+      "price": "50,000 LBP",
+      "description": {
+        "en": "Fresh chilled juice.",
+        "ar": "عصير فواكه طازج ومنعش."
+      },
+      "image": "/data/images/drink-juice.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "dr-top-juice",
+      "categoryId": "drinks",
+      "order": 7,
+      "name": {
+        "en": "Top Juice",
+        "ar": "توب جوس"
+      },
+      "price": "30,000 LBP",
+      "description": {
+        "en": "Chilled juice drink.",
+        "ar": "مشروب عصير توب جوس منعش ولذيذ."
+      },
+      "image": "/data/images/drink-top-juice.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "dr-tea",
+      "categoryId": "drinks",
+      "order": 8,
+      "name": {
+        "en": "Tea",
+        "ar": "شاي"
+      },
+      "price": "50,000 LBP",
+      "description": {
+        "en": "Hot brewed tea.",
+        "ar": "شاي ساخن مخدر على الأصول."
+      },
+      "image": "/data/images/drink-tea.avif",
+      "isAvailable": true
+    },
     {
       "id": "sh-hamod-naanaa",
       "categoryId": "shisha",
       "order": 1,
-      "name": { "en": "Hamod w Naanaa", "ar": "حامض ونعناع" },
+      "name": {
+        "en": "Hamod w Naanaa",
+        "ar": "حامض ونعناع"
+      },
       "price": "$5.5",
-      "description": { "en": "Classic refreshing lemon & mint flavor.", "ar": "شيشة معسل حامض ونعناع طازج ومنعش." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Lemon & mint.",
+        "ar": "ليمون ونعناع."
+      },
+      "image": "/data/images/shisha-hamod-naanaa.avif",
       "isAvailable": true
     },
     {
-      "id": "sh-teffehten",
+      "id": "sh-tiffahtein",
       "categoryId": "shisha",
       "order": 2,
-      "name": { "en": "Teffehten", "ar": "تفاحتين" },
+      "name": {
+        "en": "Tiffahtein",
+        "ar": "تفاحتين"
+      },
       "price": "$5.5",
-      "description": { "en": "Traditional premium double apple flavor.", "ar": "شيشة معسل تفاحتين أصلي فاخر." },
-      "image": "/data/layout_images/logo_pic.avif",
+      "description": {
+        "en": "Double apple.",
+        "ar": "تفاحتين."
+      },
+      "image": "/data/images/shisha-tiffahtein.avif",
       "isAvailable": true
     }
   ]
