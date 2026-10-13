@@ -9,7 +9,7 @@
 
 // We import React Hooks. Hooks are special functions that let you "hook into" React features.
 // KEYWORDS TO SEARCH: "React Hooks", "useState", "useEffect", "useMemo"
-import { useState, useEffect, useMemo, MouseEvent } from "react";
+import { useState, useEffect, useMemo, useRef, MouseEvent } from "react";
 
 // Importing our JSON data directly.
 import menuData from "../app/data/products.json";
@@ -38,6 +38,11 @@ export default function MenuClient({ initialLang }: { initialLang: Language }) {
   
   // Remembers which category section is currently being viewed on screen.
   const [activeCategory, setActiveCategory] = useState<string>("");
+
+  // Refs to control scrolling state and avoid conflicts between click and scroll spy
+  const activeCategoryRef = useRef<string>("");
+  const isClickScrollingRef = useRef<boolean>(false);
+  const scrollTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   // Remembers active subcategory filter for pizzas
   const [pizzaSubcategory, setPizzaSubcategory] = useState<string>("all");
@@ -81,6 +86,7 @@ export default function MenuClient({ initialLang }: { initialLang: Language }) {
   useEffect(() => {
     if (categories.length > 0) {
       setActiveCategory(categories[0].id);
+      activeCategoryRef.current = categories[0].id;
     }
   }, [categories]);
 
@@ -107,53 +113,88 @@ export default function MenuClient({ initialLang }: { initialLang: Language }) {
     document.cookie = `restaurant-language=${newLang}; path=/; max-age=31536000`;
   };
 
+  // Centers the active category link horizontally in the navbar without disturbing page scroll
+  const scrollNavToCategory = (catId: string) => {
+    const navWrapper = document.getElementById("nav-links");
+    const activeLink = document.querySelector(`.nav-link[data-category-id="${catId}"]`) as HTMLElement;
+    if (navWrapper && activeLink) {
+      const linkLeft = activeLink.offsetLeft;
+      const linkWidth = activeLink.offsetWidth;
+      const wrapperWidth = navWrapper.offsetWidth;
+      navWrapper.scrollTo({
+        left: linkLeft - wrapperWidth / 2 + linkWidth / 2,
+        behavior: "smooth"
+      });
+    }
+  };
+
   // Scrolls smoothly to a category when a navbar link is clicked.
   const handleScrollToCategory = (e: MouseEvent<HTMLAnchorElement>, id: string) => {
-    e.preventDefault(); // Stop the link from snapping instantly
+    e.preventDefault();
     setActiveCategory(id);
+    activeCategoryRef.current = id;
+    scrollNavToCategory(id);
+
     const el = document.getElementById(id);
     if (el) {
-      const navOffset = document.getElementById("category-nav")?.offsetHeight || 0;
-      const y = el.getBoundingClientRect().top + window.scrollY - navOffset - 20;
-      window.scrollTo({ top: y, behavior: "smooth" });
+      isClickScrollingRef.current = true;
+      if (scrollTimeoutRef.current) clearTimeout(scrollTimeoutRef.current);
+
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+
+      scrollTimeoutRef.current = setTimeout(() => {
+        isClickScrollingRef.current = false;
+      }, 850);
     }
   };
 
   /**
    * SCROLL SPY LOGIC
    * Listens to the browser's scroll event and updates the active category in the Navbar.
-   * NOTE: For future optimization, look up the "IntersectionObserver API" to replace this!
    */
   useEffect(() => {
     const handleScroll = () => {
-      const navOffset = document.getElementById("category-nav")?.offsetHeight || 0;
-      let currentId = activeCategory;
-      
+      // Don't override active category while smooth-scrolling from a user click
+      if (isClickScrollingRef.current) return;
+
+      // Check if user has scrolled to the bottom of the page
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 60) {
+        const lastCat = categories[categories.length - 1];
+        if (lastCat && lastCat.id !== activeCategoryRef.current) {
+          setActiveCategory(lastCat.id);
+          activeCategoryRef.current = lastCat.id;
+          scrollNavToCategory(lastCat.id);
+        }
+        return;
+      }
+
+      const nav = document.getElementById("category-nav");
+      const navBottom = (nav ? nav.getBoundingClientRect().bottom : 60) + 30;
+
+      let currentId = categories[0]?.id || "";
       for (const cat of categories) {
         const el = document.getElementById(cat.id);
         if (el) {
           const rect = el.getBoundingClientRect();
-          if (rect.top <= navOffset + 50 && rect.bottom >= navOffset) {
+          if (rect.top <= navBottom) {
             currentId = cat.id;
           }
         }
       }
-      
-      if (currentId !== activeCategory) {
-         setActiveCategory(currentId);
-         const activeLink = document.querySelector(`.nav-link[data-category-id="${currentId}"]`);
-         if (activeLink) {
-            // Scroll the horizontal navigation bar to keep the active link visible
-            activeLink.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
-         }
+
+      if (currentId && currentId !== activeCategoryRef.current) {
+        setActiveCategory(currentId);
+        activeCategoryRef.current = currentId;
+        scrollNavToCategory(currentId);
       }
     };
-    
+
     window.addEventListener("scroll", handleScroll, { passive: true });
-    
-    // Cleanup function: Removes the event listener when the component unmounts
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [categories, activeCategory]);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      if (scrollTimeoutRef.current) clearTimeout(scrollTimeoutRef.current);
+    };
+  }, [categories]);
 
   return (
     <>

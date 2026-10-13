@@ -143,7 +143,7 @@ export default function ItemModal({ product, lang, onClose }: ItemModalProps) {
                     </span>
                   </div>
 
-                  <div className="modal-sizes-grid">
+                  <div className={`modal-sizes-grid ${product.sizes.length === 2 ? "two-rows" : ""}`}>
                     {product.sizes.map((s) => {
                       const isSelected = s.id === (selectedSizeId || product.sizes![0].id);
                       return (

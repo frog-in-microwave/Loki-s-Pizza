@@ -60,6 +60,12 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: rgba(223, 166, 71, 0.35);
+  color: var(--brand-ivory);
 }
 
 body {
@@ -482,6 +488,19 @@ html[dir="rtl"] .category-title {
   border: 1px solid rgba(223, 166, 71, 0.22);
   position: relative;
   touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.card:focus {
+  outline: none;
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--brand-gold-bright);
+  outline-offset: 2px;
 }
 
 .card.multi-size-card {
@@ -694,6 +713,15 @@ html[dir="rtl"] .card-title {
 
 .size-bar-btn:active {
   transform: scale(0.92);
+}
+
+.size-bar-btn:focus {
+  outline: none;
+}
+
+.size-bar-btn:focus-visible {
+  outline: 2px solid var(--brand-gold-bright);
+  outline-offset: 1px;
 }
 
 .size-bar-btn.active {
@@ -1132,6 +1160,15 @@ html[dir="rtl"] .modal-sizes-title {
   gap: 6px;
 }
 
+.modal-sizes-grid.two-rows {
+  grid-template-columns: 1fr;
+}
+
+.modal-size-card:first-child:nth-last-child(2),
+.modal-size-card:first-child:nth-last-child(2) ~ .modal-size-card {
+  grid-column: 1 / -1;
+}
+
 .modal-size-card {
   appearance: none;
   background: rgba(26, 20, 15, 0.85);
@@ -1148,6 +1185,16 @@ html[dir="rtl"] .modal-sizes-title {
   color: var(--brand-ivory);
   touch-action: manipulation;
   min-height: 42px;
+  outline: none;
+}
+
+.modal-size-card:focus {
+  outline: none;
+}
+
+.modal-size-card:focus-visible {
+  outline: 2px solid var(--brand-gold-bright);
+  outline-offset: 2px;
 }
 
 .modal-size-card:last-child:nth-child(odd) {
@@ -1507,6 +1554,10 @@ html[dir="rtl"] .footer-info h3 {
   .modal-sizes-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
+  }
+
+  .modal-sizes-grid.two-rows {
+    grid-template-columns: 1fr;
   }
 
   .modal-pizza-notes,
