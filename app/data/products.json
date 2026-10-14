@@ -807,7 +807,7 @@
         "en": "Crispy chicken, lettuce, tomatoes, pickles, cheddar cheese, and house sauce in fresh pizza dough.",
         "ar": "دجاج كريسبي، خس، بندورة، كبيس، جبنة شيدر، وصلصة لوكيز في عجينة بيتزا طازجة."
       },
-      "image": "/data/layout_images/logo_pic.avif",
+      "image": "/data/images/sandwich-crispy.avif",
       "isAvailable": true
     },
     {
@@ -823,7 +823,7 @@
         "en": "Steak fillet, caramelized onions, grilled mushrooms, lettuce, bell pepper, and gouda cheese in fresh pizza dough.",
         "ar": "فيليه ستيك، بصل مكرمل، فطر مشوي، خس، فليفلة، وجبنة غودا في عجينة بيتزا طازجة."
       },
-      "image": "/data/layout_images/logo_pic.avif",
+      "image": "/data/images/sandwich-philly-steak.avif",
       "isAvailable": true
     },
     {
@@ -839,7 +839,7 @@
         "en": "Chicken tawouk, coleslaw, fries, pickles, and garlic sauce in fresh pizza dough.",
         "ar": "شيش طاووق، سلطة كولسلو، بطاطا مقلية، كبيس، وصلصة ثوم في عجينة بيتزا طازجة."
       },
-      "image": "/data/layout_images/logo_pic.avif",
+      "image": "/data/images/sandwich-tawook.avif",
       "isAvailable": true
     },
     {
@@ -855,7 +855,7 @@
         "en": "Fajita-spiced chicken with avocado sauce in fresh pizza dough.",
         "ar": "دجاج بتوابل الفاهيتا مع صلصة الأفوكادو في عجينة بيتزا طازجة."
       },
-      "image": "/data/layout_images/logo_pic.avif",
+      "image": "/data/images/sandwich-fahita.avif",
       "isAvailable": true
     },
     {
@@ -871,7 +871,7 @@
         "en": "Chicken in a Mexican spice blend, nachos, and taco sauce in fresh pizza dough.",
         "ar": "دجاج بخلطة البهارات المكسيكية، ناتشوز، وصلصة تاكو في عجينة بيتزا طازجة."
       },
-      "image": "/data/layout_images/logo_pic.avif",
+      "image": "/data/images/sandwich-mexican.avif",
       "isAvailable": true
     },
     {
@@ -888,7 +888,7 @@
         "en": "Shrimp, lettuce, and spicy dynamite sauce in fresh pizza dough.",
         "ar": "جمبري، خس، وصلصة ديناميت حارة في عجينة بيتزا طازجة."
       },
-      "image": "/data/layout_images/logo_pic.avif",
+      "image": "/data/images/sandwich-shrimp.avif",
       "isAvailable": true
     },
     {
@@ -904,7 +904,7 @@
         "en": "Marinated chicken, cheddar cheese, mushroom, caramelized onions, and BBQ sauce in fresh pizza dough.",
         "ar": "دجاج متبل، جبنة شيدر، فطر، بصل مكرمل، وصلصة باربيكيو في عجينة بيتزا طازجة."
       },
-      "image": "/data/layout_images/logo_pic.avif",
+      "image": "/data/images/sandwich-bbq-chicken.avif",
       "isAvailable": true
     },
     {
