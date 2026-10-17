@@ -423,8 +423,9 @@ html[dir="rtl"] .category-title {
   margin-top: 0.5rem;
 }
 
-/* Subcategory Filter Pills for Pizzas */
-.pizza-subfilter-bar {
+/* Subcategory Filter Pills for Pizzas & Breakfast */
+.pizza-subfilter-bar,
+.subfilter-bar {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -434,11 +435,13 @@ html[dir="rtl"] .category-title {
   scrollbar-width: none;
 }
 
-.pizza-subfilter-bar::-webkit-scrollbar {
+.pizza-subfilter-bar::-webkit-scrollbar,
+.subfilter-bar::-webkit-scrollbar {
   display: none;
 }
 
-.pizza-subfilter-btn {
+.pizza-subfilter-btn,
+.subfilter-btn {
   appearance: none;
   background: rgba(26, 20, 15, 0.7);
   border: 1px solid rgba(223, 166, 71, 0.25);
@@ -454,12 +457,14 @@ html[dir="rtl"] .category-title {
   touch-action: manipulation;
 }
 
-.pizza-subfilter-btn:hover {
+.pizza-subfilter-btn:hover,
+.subfilter-btn:hover {
   color: var(--brand-ivory);
   border-color: var(--brand-gold);
 }
 
-.pizza-subfilter-btn.active {
+.pizza-subfilter-btn.active,
+.subfilter-btn.active {
   background: linear-gradient(135deg, var(--brand-gold) 0%, var(--brand-gold-dark) 100%);
   color: #120e0b;
   border-color: var(--brand-gold-bright);

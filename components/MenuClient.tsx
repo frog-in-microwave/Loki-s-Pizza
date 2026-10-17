@@ -47,6 +47,9 @@ export default function MenuClient({ initialLang }: { initialLang: Language }) {
   // Remembers active subcategory filter for pizzas
   const [pizzaSubcategory, setPizzaSubcategory] = useState<string>("all");
 
+  // Remembers active subcategory filter for breakfast
+  const [breakfastSubcategory, setBreakfastSubcategory] = useState<string>("all");
+
   /**
    * MEMOIZATION (useMemo)
    * useMemo remembers the result of a calculation so we don't have to redo the math 
@@ -221,17 +224,26 @@ export default function MenuClient({ initialLang }: { initialLang: Language }) {
       <main id="menu-container">
         {categories.map((cat, i) => {
           const isPizza = cat.id === "pizza";
+          const isBreakfast = cat.id === "breakfast";
           const categoryProducts = productsByCategory[cat.id] || [];
           const displayedProducts = isPizza && pizzaSubcategory !== "all"
             ? categoryProducts.filter((p) => p.subcategoryId === pizzaSubcategory)
+            : isBreakfast && breakfastSubcategory !== "all"
+            ? categoryProducts.filter((p) => p.subcategoryId === breakfastSubcategory)
             : categoryProducts;
 
-          const pizzaFilters = [
+          const breakfastFilters = cat.subcategories || [
             { id: "all", label: { en: "All", ar: "الكل" } },
-            { id: "beef", label: { en: "Beef", ar: "لحوم" } },
-            { id: "chicken", label: { en: "Chicken", ar: "دجاج" } },
-            { id: "seafood", label: { en: "Seafood", ar: "مأكولات بحرية" } },
+            { id: "manakeesh", label: { en: "Manakeesh", ar: "مناقيش" } },
+            { id: "baguettes", label: { en: "Baguettes", ar: "باغيت" } },
+          ];
+
+          const pizzaFilters = cat.subcategories || [
+            { id: "all", label: { en: "All", ar: "الكل" } },
             { id: "vegetarian", label: { en: "Vegetarian", ar: "نباتي" } },
+            { id: "seafood", label: { en: "Seafood", ar: "مأكولات بحرية" } },
+            { id: "chicken", label: { en: "Chicken", ar: "دجاج" } },
+            { id: "beef", label: { en: "Beef", ar: "لحوم" } },
             { id: "mixes", label: { en: "Mixes", ar: "تشكيلات خاصة" } },
           ];
 
@@ -254,6 +266,23 @@ export default function MenuClient({ initialLang }: { initialLang: Language }) {
                   </p>
                 )}
               </div>
+
+              {isBreakfast && (
+                <div className="subfilter-bar pizza-subfilter-bar" role="tablist" aria-label={lang === "ar" ? "أصناف الترويقة" : "Breakfast categories"}>
+                  {breakfastFilters.map((f) => (
+                    <button
+                      key={f.id}
+                      type="button"
+                      role="tab"
+                      aria-selected={breakfastSubcategory === f.id}
+                      className={`subfilter-btn pizza-subfilter-btn ${breakfastSubcategory === f.id ? "active" : ""}`}
+                      onClick={() => setBreakfastSubcategory(f.id)}
+                    >
+                      {getText(f.label)}
+                    </button>
+                  ))}
+                </div>
+              )}
 
               {isPizza && (
                 <div className="pizza-subfilter-bar" role="tablist" aria-label="Pizza types">

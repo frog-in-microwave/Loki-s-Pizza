@@ -170,7 +170,7 @@ export default function ItemModal({ product, lang, onClose }: ItemModalProps) {
               )}
 
 
-              {/* Combo Option Note for Rolls & Burgers */}
+              {/* Combo Option Note */}
               {product.comboOption && (
                 <div className="modal-combo-banner">
                   <span className="diamond-bullet">✦</span>

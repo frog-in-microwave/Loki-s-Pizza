@@ -23,12 +23,18 @@ export interface SizeOption {
   price: string;
 }
 
+export interface SubcategoryOption {
+  id: string;
+  label: LocalizedText;
+}
+
 export interface Category {
   id: string;
   order: number;
   name: LocalizedText;
   subtitle?: LocalizedText;
   note?: LocalizedText;
+  subcategories?: SubcategoryOption[];
 }
 
 export interface Product {
