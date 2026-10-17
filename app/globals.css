@@ -319,7 +319,7 @@ html[dir="rtl"] .nav-link {
 /* ================= MAIN MENU CONTENT ================= */
 
 #menu-container {
-  padding: 2.8rem 1.2rem;
+  padding: 1.6rem 1.2rem 2.8rem;
   max-width: 1000px;
   margin: 0 auto;
   background-color: transparent;
@@ -396,7 +396,14 @@ html[dir="rtl"] .category-title {
 }
 
 .category-header-wrap {
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.25rem;
+}
+
+.category-section:first-of-type .category-header-wrap,
+.category-header-wrap.has-subfilters,
+.category-header-wrap:has(+ .subfilter-bar),
+.category-header-wrap:has(+ .pizza-subfilter-bar) {
+  margin-bottom: 0.85rem;
 }
 
 .category-subtitle {
@@ -430,8 +437,8 @@ html[dir="rtl"] .category-title {
   align-items: center;
   gap: 8px;
   overflow-x: auto;
-  padding-bottom: 12px;
-  margin-bottom: 1.2rem;
+  padding-bottom: 4px;
+  margin-bottom: 0.95rem;
   scrollbar-width: none;
 }
 
@@ -1473,7 +1480,7 @@ html[dir="rtl"] .footer-info h3 {
   }
 
   #menu-container {
-    padding: 1.8rem 0.8rem;
+    padding: 1.1rem 0.8rem 2rem;
   }
 
   .card {

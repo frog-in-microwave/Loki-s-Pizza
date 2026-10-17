@@ -252,7 +252,7 @@ export default function MenuClient({ initialLang }: { initialLang: Language }) {
               {/* If it is not the very first category (i !== 0), draw a horizontal line */}
               {i !== 0 && <hr className="category-divider" />}
               
-              <div className="category-header-wrap">
+              <div className={`category-header-wrap ${(isBreakfast || isPizza) ? "has-subfilters" : ""}`}>
                 <h2 className="category-title">{getText(cat.name)}</h2>
                 {cat.subtitle && (
                   <p className="category-subtitle">

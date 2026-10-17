@@ -7,10 +7,6 @@
         "en": "Breakfast",
         "ar": "ترويقة"
       },
-      "subtitle": {
-        "en": "Served Every Morning · Prices in LBP",
-        "ar": "يومياً في الصباح · الأسعار بالليرة اللبنانية"
-      },
       "subcategories": [
         {
           "id": "all",
