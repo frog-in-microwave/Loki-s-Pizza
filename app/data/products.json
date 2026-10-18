@@ -586,7 +586,7 @@
       },
       "image": "/data/images/breakfast-lokis-baguette.avif",
       "isAvailable": true
-    },
+    }, 
     {
       "id": "bf-cheese-baguette",
       "categoryId": "breakfast",
@@ -696,7 +696,6 @@
         "ar": "تشيلي تشيز بايتس"
       },
       "price": "$6.0",
-      "comboOption": "+$3.5",
       "isSpicy": true,
       "description": {
         "en": "Spicy chili and melted cheese in crispy shells.",
@@ -730,7 +729,6 @@
         "ar": "جوانح بافلو (٦ قطع)"
       },
       "price": "$6.0",
-      "comboOption": "+$3.5",
       "description": {
         "en": "Tossed in classic buffalo hot sauce.",
         "ar": "مغطاة بصلصة البافلو الحارة الكلاسيكية."
@@ -763,7 +761,6 @@
         "ar": "جوانح باربيكيو (٦ قطع)"
       },
       "price": "$6.0",
-      "comboOption": "+$3.5",
       "description": {
         "en": "Slow-smoked, finished with a BBQ glaze.",
         "ar": "مدخنة على نار هادئة مع صوص الباربيكيو الغني."
@@ -780,7 +777,6 @@
         "ar": "حلقات البصل"
       },
       "price": "$5.0",
-      "comboOption": "+$3.5",
       "description": {
         "en": "Golden-fried onion rings.",
         "ar": "حلقات بصل مقلية ومقرمشة بلون ذهبي شهي."
@@ -797,7 +793,6 @@
         "ar": "ديناميت شرمب"
       },
       "price": "$6.0",
-      "comboOption": "+$3.5",
       "isSpicy": true,
       "description": {
         "en": "Crispy shrimp in spicy dynamite sauce.",
@@ -815,7 +810,6 @@
         "ar": "أصابع موزاريلا"
       },
       "price": "$6.0",
-      "comboOption": "+$3.5",
       "description": {
         "en": "Crispy breaded mozzarella, served hot.",
         "ar": "أصابع جبنة موزاريلا مقرمشة تقدم ساخنة."
@@ -832,7 +826,6 @@
         "ar": "طبق المشاركة الفاخر"
       },
       "price": "$12.0",
-      "comboOption": "+$3.5",
       "description": {
         "en": "Wings, mozzarella sticks, chili bites, onion rings, and fries.",
         "ar": "أجنحة، أصابع موزاريلا، تشيلي بايتس، حلقات بصل، وبطاطا مقلية."
@@ -849,7 +842,6 @@
         "ar": "سلطة سيزر بالدجاج"
       },
       "price": "$7.0",
-      "comboOption": "+$3.5",
       "description": {
         "en": "Crisp lettuce, Parmesan cheese, croutons, grilled chicken, and Caesar dressing.",
         "ar": "خس مقرمش، جبنة بارميزان، كروتون، دجاج مشوي، وصلصة سيزر."
