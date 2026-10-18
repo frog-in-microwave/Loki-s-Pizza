@@ -688,9 +688,73 @@
       "isAvailable": true
     },
     {
-      "id": "app-chili-cheese-bites",
+      "id": "app-regular-fries",
       "categoryId": "appetizers",
       "order": 2,
+      "name": {
+        "en": "Regular Fries",
+        "ar": "بطاطا مقلية"
+      },
+      "price": "$3.0",
+      "description": {
+        "en": "Classic golden fries, perfectly salted.",
+        "ar": "بطاطا مقلية ذهبية كلاسيكية مملحة بإتقان."
+      },
+      "image": "/data/images/appetizer-regular-fries.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "app-wedges",
+      "categoryId": "appetizers",
+      "order": 3,
+      "name": {
+        "en": "Wedges",
+        "ar": "بطاطا ودجز"
+      },
+      "price": "$4.0",
+      "description": {
+        "en": "Thick-cut herbed potato wedges.",
+        "ar": "أصابع بطاطا ودجز سميكة ومتبلة بالأعشاب."
+      },
+      "image": "/data/images/appetizer-wedges.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "app-onion-rings",
+      "categoryId": "appetizers",
+      "order": 4,
+      "name": {
+        "en": "Onion Rings",
+        "ar": "حلقات البصل"
+      },
+      "price": "$5.0",
+      "description": {
+        "en": "Golden-fried onion rings.",
+        "ar": "حلقات بصل مقلية ومقرمشة بلون ذهبي شهي."
+      },
+      "image": "/data/images/appetizer-onion-rings.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "app-mozzarella-sticks",
+      "categoryId": "appetizers",
+      "order": 5,
+      "name": {
+        "en": "Mozzarella Sticks",
+        "ar": "أصابع موزاريلا"
+      },
+      "price": "$6.0",
+      "description": {
+        "en": "Crispy breaded mozzarella, served hot.",
+        "ar": "أصابع جبنة موزاريلا مقرمشة تقدم ساخنة."
+      },
+      "image": "/data/images/appetizer-mozzarella-sticks.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "app-chili-cheese-bites",
+      "categoryId": "appetizers",
+      "order": 6,
       "name": {
         "en": "Chili Cheese Bites",
         "ar": "تشيلي تشيز بايتس"
@@ -705,25 +769,9 @@
       "isAvailable": true
     },
     {
-      "id": "app-regular-fries",
-      "categoryId": "appetizers",
-      "order": 3,
-      "name": {
-        "en": "Regular Fries",
-        "ar": "بطاطا مقلية"
-      },
-      "price": "$3.0",
-      "description": {
-        "en": "Classic golden fries, perfectly salted.",
-        "ar": "بطاطا مقلية ذهبية كلاسيكية مملحة بإتقان."
-      },
-      "image": "/data/images/appetizer-regular-fries.avif",
-      "isAvailable": true
-    },
-    {
       "id": "app-buffalo-wings",
       "categoryId": "appetizers",
-      "order": 4,
+      "order": 7,
       "name": {
         "en": "Buffalo Wings (6 pcs)",
         "ar": "جوانح بافلو (٦ قطع)"
@@ -737,25 +785,9 @@
       "isAvailable": true
     },
     {
-      "id": "app-wedges",
-      "categoryId": "appetizers",
-      "order": 5,
-      "name": {
-        "en": "Wedges",
-        "ar": "بطاطا ودجز"
-      },
-      "price": "$4.0",
-      "description": {
-        "en": "Thick-cut herbed potato wedges.",
-        "ar": "أصابع بطاطا ودجز سميكة ومتبلة بالأعشاب."
-      },
-      "image": "/data/images/appetizer-wedges.avif",
-      "isAvailable": true
-    },
-    {
       "id": "app-bbq-wings",
       "categoryId": "appetizers",
-      "order": 6,
+      "order": 8,
       "name": {
         "en": "BBQ Wings (6 pcs)",
         "ar": "جوانح باربيكيو (٦ قطع)"
@@ -769,25 +801,9 @@
       "isAvailable": true
     },
     {
-      "id": "app-onion-rings",
-      "categoryId": "appetizers",
-      "order": 7,
-      "name": {
-        "en": "Onion Rings",
-        "ar": "حلقات البصل"
-      },
-      "price": "$5.0",
-      "description": {
-        "en": "Golden-fried onion rings.",
-        "ar": "حلقات بصل مقلية ومقرمشة بلون ذهبي شهي."
-      },
-      "image": "/data/images/appetizer-onion-rings.avif",
-      "isAvailable": true
-    },
-    {
       "id": "app-dynamite-shrimp",
       "categoryId": "appetizers",
-      "order": 8,
+      "order": 9,
       "name": {
         "en": "Dynamite Shrimp",
         "ar": "ديناميت شرمب"
@@ -799,22 +815,6 @@
         "ar": "جمبري مقرمش مغطى بصلصة الديناميت الحارة."
       },
       "image": "/data/images/appetizer-dynamite-shrimp.avif",
-      "isAvailable": true
-    },
-    {
-      "id": "app-mozzarella-sticks",
-      "categoryId": "appetizers",
-      "order": 9,
-      "name": {
-        "en": "Mozzarella Sticks",
-        "ar": "أصابع موزاريلا"
-      },
-      "price": "$6.0",
-      "description": {
-        "en": "Crispy breaded mozzarella, served hot.",
-        "ar": "أصابع جبنة موزاريلا مقرمشة تقدم ساخنة."
-      },
-      "image": "/data/images/appetizer-mozzarella-sticks.avif",
       "isAvailable": true
     },
     {
@@ -842,6 +842,7 @@
         "ar": "سلطة سيزر بالدجاج"
       },
       "price": "$7.0",
+      "comboOption": "+$3.5",
       "description": {
         "en": "Crisp lettuce, Parmesan cheese, croutons, grilled chicken, and Caesar dressing.",
         "ar": "خس مقرمش، جبنة بارميزان، كروتون، دجاج مشوي، وصلصة سيزر."
@@ -1251,6 +1252,7 @@
         "ar": "تشيكن ماشروم"
       },
       "price": "$13.0",
+      "comboOption": "+$3.5",
       "description": {
         "en": "Two grilled chicken fillets topped with creamy mushroom sauce, served with your choice of fries or wedges and steamed vegetables.",
         "ar": "قطعتان من فيليه الدجاج المشوي بصلصة الفطر الكريمية، مع خيارك من البطاطا المقلية أو الودجز وخضار سوتيه."
@@ -1267,6 +1269,7 @@
         "ar": "ستيك ماشروم"
       },
       "price": "$16.0",
+      "comboOption": "+$3.5",
       "description": {
         "en": "200g beef fillet topped with creamy mushroom sauce, served with your choice of fries or wedges and steamed vegetables.",
         "ar": "فيليه لحم بقر ٢٠٠ غرام مع صلصة الفطر الكريمية، يقدم مع البطاطا وخضار سوتيه."
@@ -1283,6 +1286,7 @@
         "ar": "وعاء لوكيز دجاج"
       },
       "price": "$12.0",
+      "comboOption": "+$3.5",
       "description": {
         "en": "Chicken served with house sauce, fries, and fresh vegetables.",
         "ar": "دجاج يقدم مع صلصة لوكيز الخاصة، بطاطا مقلية، وخضار طازجة."
@@ -1299,6 +1303,7 @@
         "ar": "وعاء لوكيز كباب"
       },
       "price": "$15.0",
+      "comboOption": "+$3.5",
       "description": {
         "en": "Kebab served with house sauce, fries, and fresh vegetables.",
         "ar": "كباب يقدم مع صلصة لوكيز الخاصة، بطاطا مقلية، وخضار طازجة."
