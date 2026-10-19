@@ -632,10 +632,10 @@
     {
       "id": "bf-veggie-plate",
       "categoryId": "breakfast",
-      "subcategoryId": "sides",
+      "subcategoryId": "manakeesh",
       "subcategory": {
-        "en": "Sides",
-        "ar": "إضافات"
+        "en": "Manakeesh",
+        "ar": "مناقيش"
       },
       "order": 14,
       "name": {
@@ -653,10 +653,10 @@
     {
       "id": "bf-extra-veggies",
       "categoryId": "breakfast",
-      "subcategoryId": "sides",
+      "subcategoryId": "manakeesh",
       "subcategory": {
-        "en": "Sides",
-        "ar": "إضافات"
+        "en": "Manakeesh",
+        "ar": "مناقيش"
       },
       "order": 15,
       "name": {
