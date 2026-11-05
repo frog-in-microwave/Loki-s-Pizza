@@ -1,0 +1,209 @@
+[
+  {
+    "id": "breakfast",
+    "order": 1,
+    "name": {
+      "en": "Breakfast",
+      "ar": "ترويقة"
+    },
+    "subcategories": [
+      {
+        "id": "all",
+        "label": {
+          "en": "All",
+          "ar": "الكل"
+        }
+      },
+      {
+        "id": "manakeesh",
+        "label": {
+          "en": "Manakeesh",
+          "ar": "مناقيش"
+        }
+      },
+      {
+        "id": "baguettes",
+        "label": {
+          "en": "Baguettes",
+          "ar": "باغيت"
+        }
+      }
+    ],
+    "note": {
+      "en": "Served every morning · Prices in LBP",
+      "ar": "يقدم كل صباح · الأسعار بالليرة اللبنانية"
+    }
+  },
+  {
+    "id": "appetizers",
+    "order": 2,
+    "name": {
+      "en": "Appetizers",
+      "ar": "المقبلات"
+    },
+    "note": {
+      "en": "Dips: Cheddar · BBQ · Ketchup · Dynamite · Garlic · Kebab · Béarnaise · Buffalo",
+      "ar": "الصلصات: شيدر · باربيكيو · كاتشب · ديناميت · ثوم · كباب · بيرنيز · بوفالو"
+    }
+  },
+  {
+    "id": "salads",
+    "order": 3,
+    "name": {
+      "en": "Salads",
+      "ar": "السلطات"
+    }
+  },
+  {
+    "id": "rolls",
+    "order": 4,
+    "name": {
+      "en": "Rolls",
+      "ar": "الرولز"
+    },
+    "subtitle": {
+      "en": "Combo Option +$3.5",
+      "ar": "خيار كومبو +3.5$"
+    }
+  },
+  {
+    "id": "pasta",
+    "order": 5,
+    "name": {
+      "en": "Pasta",
+      "ar": "الباستا"
+    }
+  },
+  {
+    "id": "sandwiches",
+    "order": 6,
+    "name": {
+      "en": "Sandwiches",
+      "ar": "الساندويشات"
+    },
+    "subtitle": {
+      "en": "In Fresh Pizza Dough",
+      "ar": "بعجينة البيتزا الطازجة"
+    }
+  },
+  {
+    "id": "burgers",
+    "order": 7,
+    "name": {
+      "en": "Burgers",
+      "ar": "البرغر"
+    },
+    "subtitle": {
+      "en": "Combo Option +$3.5",
+      "ar": "خيار كومبو +3.5$"
+    }
+  },
+  {
+    "id": "plates",
+    "order": 8,
+    "name": {
+      "en": "Plates",
+      "ar": "الأطباق والوجبات"
+    }
+  },
+  {
+    "id": "pizza",
+    "order": 9,
+    "name": {
+      "en": "Swedish Pizza",
+      "ar": "البيتزا السويدية"
+    },
+    "note": {
+      "en": "Served with Loki's special pizza salad",
+      "ar": "تقدم جميع أنواع البيتزا مع سلطة البيتزا الخاصة من لوكيز"
+    },
+    "subtitle": {
+      "en": "Mix & Match: 2 Flavors (M | L | XL) · 4 Flavors (L | XL)",
+      "ar": "إمكانية دمج النكهات: نكهتان (M | L | XL) · ٤ نكهات (L | XL)"
+    },
+    "subcategories": [
+      {
+        "id": "all",
+        "label": {
+          "en": "All",
+          "ar": "الكل"
+        }
+      },
+      {
+        "id": "vegetarian",
+        "label": {
+          "en": "Vegetarian",
+          "ar": "نباتي"
+        }
+      },
+      {
+        "id": "seafood",
+        "label": {
+          "en": "Seafood",
+          "ar": "مأكولات بحرية"
+        }
+      },
+      {
+        "id": "chicken",
+        "label": {
+          "en": "Chicken",
+          "ar": "دجاج"
+        }
+      },
+      {
+        "id": "beef",
+        "label": {
+          "en": "Beef",
+          "ar": "لحوم"
+        }
+      },
+      {
+        "id": "mixes",
+        "label": {
+          "en": "Mixes",
+          "ar": "تشكيلات خاصة"
+        }
+      }
+    ]
+  },
+  {
+    "id": "drinks",
+    "order": 10,
+    "name": {
+      "en": "Drinks",
+      "ar": "المشروبات"
+    },
+    "subtitle": {
+      "en": "Want a drink?",
+      "ar": "بدك شي منعش تشربه؟"
+    }
+  },
+  {
+    "id": "desserts",
+    "order": 11,
+    "name": {
+      "en": "Desserts",
+      "ar": "الحلويات"
+    }
+  },
+  {
+    "id": "shakes-coffee",
+    "order": 12,
+    "name": {
+      "en": "Shakes & Coffee",
+      "ar": "شيك وقهوة"
+    },
+    "subtitle": {
+      "en": "One Price · All Flavors",
+      "ar": "سعر موحد · جميع النكهات"
+    }
+  },
+  {
+    "id": "shisha",
+    "order": 13,
+    "name": {
+      "en": "Shisha",
+      "ar": "الشيشة"
+    }
+  }
+]

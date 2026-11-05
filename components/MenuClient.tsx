@@ -12,7 +12,8 @@
 import { useState, useEffect, useMemo, useRef, MouseEvent } from "react";
 
 // Importing our JSON data directly.
-import menuData from "../app/data/products.json";
+import categoriesData from "../app/data/categories.json";
+import itemsData from "../app/data/items.json";
 
 // Importing our smaller extracted components.
 import FoodCard from "./FoodCard";
@@ -57,13 +58,21 @@ export default function MenuClient({ initialLang }: { initialLang: Language }) {
    */
   // 1. Sort the categories by their "order" number.
   const categories = useMemo(() => {
-    return [...(menuData.categories as Category[])].sort((a, b) => (a.order || 9999) - (b.order || 9999));
+    const cats = (Array.isArray(categoriesData)
+      ? categoriesData
+      : (categoriesData as { categories?: Category[] }).categories || []) as Category[];
+    return [...cats].sort((a, b) => (a.order || 9999) - (b.order || 9999));
   }, []);
 
   // 2. Group the products by their category, and sort them alphabetically based on the current language.
   const productsByCategory = useMemo(() => {
     const map: Record<string, Product[]> = {};
-    (menuData.products as Product[]).forEach((p) => {
+    const items = (Array.isArray(itemsData)
+      ? itemsData
+      : ((itemsData as { items?: Product[]; products?: Product[] }).items ||
+         (itemsData as { items?: Product[]; products?: Product[] }).products ||
+         [])) as Product[];
+    items.forEach((p) => {
       if (p.isAvailable === false) return;
       if (!map[p.categoryId]) map[p.categoryId] = [];
       map[p.categoryId].push(p);

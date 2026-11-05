@@ -55,3 +55,6 @@ export interface Product {
   image: string;
   isAvailable: boolean;
 }
+
+export type Item = Product;
+
