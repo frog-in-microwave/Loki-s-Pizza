@@ -2899,8 +2899,8 @@
     },
     "price": "300,000 LBP",
     "description": {
-      "en": "Smooth, creamy cheesecake. Choose your favorite flavor.",
-      "ar": "تشيز كيك كريمي فاخر. اختر نكهتك المفضلة."
+      "en": "Flavors: Strawberry · Lotus · Oreo · Blueberry · Nutella · Pistachio",
+      "ar": "النكهات: فراولة · لوتس · أوريو · بلوبيري · نوتيلا · فستق"
     },
     "badge": {
       "en": "Choose your flavor",
@@ -2919,8 +2919,8 @@
     },
     "price": "300,000 LBP",
     "description": {
-      "en": "Freshly baked specialty cake slice. Choose your favorite flavor.",
-      "ar": "شريحة كيك طازجة ومميزة. اختر نكهتك المفضلة."
+      "en": "Flavors: Lotus · Chocolate · Strawberry",
+      "ar": "النكهات: لوتس · شوكولاتة · فراولة"
     },
     "badge": {
       "en": "Choose your flavor",
@@ -2939,8 +2939,8 @@
     },
     "price": "150,000 LBP",
     "description": {
-      "en": "Traditional French éclair with pastry cream. Choose your favorite flavor.",
-      "ar": "إكلير فرنسي تقليدي بحشوة الكريمة. اختر نكهتك المفضلة."
+      "en": "Flavors: Pistachio · Plain",
+      "ar": "النكهات: فستق · سادة"
     },
     "badge": {
       "en": "Choose your flavor",
@@ -2959,8 +2959,8 @@
     },
     "price": "250,000 LBP",
     "description": {
-      "en": "Fresh baked golden cookies. Choose your favorite flavor.",
-      "ar": "كوكيز ذهبية طازجة. اختر نكهتك المفضلة."
+      "en": "Flavors: Kinder · Nutella · Oreo · Lotus · Pistachio",
+      "ar": "النكهات: كيندر · نوتيلا · أوريو · لوتس · فستق"
     },
     "badge": {
       "en": "Choose your flavor",
@@ -2995,8 +2995,8 @@
     },
     "price": "150,000 LBP",
     "description": {
-      "en": "Flaky and buttery French croissant. Choose your favorite flavor.",
-      "ar": "كرواسون فرنسي هش بالزبدة. اختر نكهتك المفضلة."
+      "en": "Flavors: Chocolate · Cheese",
+      "ar": "النكهات: شوكولاتة · جبنة"
     },
     "badge": {
       "en": "Choose your flavor",
